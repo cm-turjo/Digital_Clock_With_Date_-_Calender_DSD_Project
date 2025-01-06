@@ -154,4 +154,75 @@ alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
 # Error: VCP2000 pla_timerSet.v : (67, 134): Syntax error. Unexpected token: ||[O_OR].
 # Error: VCP2000 pla_timerSet.v : (67, 171): Syntax error. Unexpected token: ||[O_OR].
 # Error: VCP2000 pla_timerSet.v : (67, 204): Syntax error. Unexpected token: ;.
-# Error: VCP2858 pla_timerSet.v : (68, 55): gout[0] is not a valid left-hand side of a 
+# Error: VCP2858 pla_timerSet.v : (68, 55): gout[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2000 pla_timerSet.v : (68, 55): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (68, 97): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (68, 134): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (68, 167): Syntax error. Unexpected token: ;.
+# Compile failure 11 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2858 pla_timerSet.v : (66, 167): gout[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (67, 204): gout[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (68, 167): gout[0] is not a valid left-hand side of a procedural assignment.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2858 pla_timerSet.v : (66, 166): gout[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (67, 203): gout[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (68, 166): gout[0] is not a valid left-hand side of a procedural assignment.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v
+# Unit top modules: pla_timerSet.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v
+# Unit top modules: pla_timerSet.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerCompare.v
+# Unit top modules: pla_timerSet.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timeUpdate.v
+# Error: VCP5103 pla_timeUpdate.v : (34, 21): Undeclared identifier: clk.
+# Warning: VCP3005 pla_timeUpdate.v : (34, 21): The implicit event expression list (@*) is empty; the process will never be executed.
+# Compile failure 1 Errors 1 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timeUpdate.v
+# Warning: VCP2640 No modules defined.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Warning: VCP2640 No modules defined.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Warning: VCP2640 No modules defined.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/demux_1X8.v
+# Warning: VCP2640 No modules defined.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Warning: VCP2640 No modules defined.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Unit top modules: mux_8X1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/demux_1X8.v
+# Unit top modules: demux_1X8.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done

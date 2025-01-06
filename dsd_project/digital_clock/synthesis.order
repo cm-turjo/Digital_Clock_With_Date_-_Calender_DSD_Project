@@ -1,1 +1,6 @@
 i<>.\src\pla_timerSet.v
+i<>.\src\pla_timerCompare.v
+i<>.\src\pla_timeUpdate.v
+i<>.\src\breadboard.v
+i<>.\src\mux_8X1.v
+i<>.\src\demux_1X8.v
