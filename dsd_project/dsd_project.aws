@@ -1,0 +1,13 @@
+[Version]
+Version=15.0
+[Designs]
+digital_clock=.\digital_clock\digital_clock.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+digital_clock=1
+[Settings]
+Active=digital_clock

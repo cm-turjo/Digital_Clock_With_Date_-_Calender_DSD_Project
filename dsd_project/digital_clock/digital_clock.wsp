@@ -1,0 +1,13 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+digital_clock=0
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\digital_clock\digital_clock.adf|]
+Path=
+[Gui config]
+RunFor=100 ns
+[COMPILESTATUS|.\src\pla_timerSet.v]
+FileTimeLow=4127499880
+FileTimeHigh=31154211
+Status=Compiled

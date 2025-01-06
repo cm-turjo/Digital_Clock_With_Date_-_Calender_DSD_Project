@@ -1,0 +1,29 @@
+timestamp=1736158614659
+
+[~A]
+E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerSet.v=0*460*1227
+LastVerilogToplevel=pla_timerSet
+ModifyID=1
+Version=74
+
+[~MFT]
+0=4|0digital_clock.mgf|1227|0
+1=2|1digital_clock.mgf|374|0
+3=4|3digital_clock.mgf|1089|0
+
+[$root]
+A/$root=22|||1*0
+BinW64/$root=3*0
+SLP=3*115
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92165c6ca16a01afe4fc29d87c91beef9856
+
+[pla_timerSet]
+A/pla_timerSet=22|../src/pla_timerSet.v|27|1*374
+BinW64/pla_timerSet=3*183
+R=../src/pla_timerSet.v|27
+SLP=3*1089
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|28934e5797b04852a0c94de2f1ecfb3f5545d284a7a776cd7926d0ffa0c80d4f5e17970e2cc2760333f344158be2fb03
+
+[~U]
+$root=12|0*0|
+pla_timerSet=12|0*182||0x10

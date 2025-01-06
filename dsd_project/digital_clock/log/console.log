@@ -1,0 +1,157 @@
+# Design: Design "digital_clock" has been set as active.
+# Design: Design "digital_clock" has been set as active.
+# Design: Design "digital_clock" has been set as active.
+# Design: Design "digital_clock" has been set as active.
+# Design: Design "digital_clock" has been set as active.
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2000 pla_timerSet.v : (32, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (33, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (34, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (35, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (36, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (37, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (38, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (39, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (40, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Compile failure 9 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2000 pla_timerSet.v : (32, 8): Syntax error. Unexpected token: reg[_REG].
+# Error: VCP2000 pla_timerSet.v : (34, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (35, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (36, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (37, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (38, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (39, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (40, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Compile failure 8 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2000 pla_timerSet.v : (32, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (34, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (35, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (36, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (37, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (38, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (39, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 pla_timerSet.v : (40, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Compile failure 8 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2000 pla_timerSet.v : (84, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE].
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP5103 pla_timerSet.v : (66, 27): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 37): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 45): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 57): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 66): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 77): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 91): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 100): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 110): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 122): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 130): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (66, 139): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 27): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 38): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 48): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 61): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 70): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 81): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (67, 83): Syntax error. Unexpected token: ).
+# Error: VCP5103 pla_timerSet.v : (67, 95): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 104): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 114): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (67, 116): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP5103 pla_timerSet.v : (67, 126): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 134): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 143): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (67, 147): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP5103 pla_timerSet.v : (67, 157): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 165): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (67, 173): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (67, 174): Syntax error. Unexpected token: ;.
+# Error: VCP5103 pla_timerSet.v : (68, 27): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 36): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 47): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (68, 49): Syntax error. Unexpected token: ).
+# Error: VCP5103 pla_timerSet.v : (68, 61): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 70): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 81): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (68, 85): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP5103 pla_timerSet.v : (68, 95): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 103): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 112): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (68, 116): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP5103 pla_timerSet.v : (68, 126): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 134): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (68, 142): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (68, 143): Syntax error. Unexpected token: ;.
+# Error: VCP5103 pla_timerSet.v : (71, 21): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (71, 30): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (71, 39): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (73, 20): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (73, 30): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (73, 39): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (75, 19): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (75, 26): Syntax error. Unexpected token: [.
+# Error: VCP5103 pla_timerSet.v : (75, 40): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (75, 41): Syntax error. Unexpected token: ;.
+# Error: VCP5103 pla_timerSet.v : (76, 20): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (76, 30): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (76, 37): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (77, 19): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (77, 27): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (77, 36): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (79, 19): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (79, 27): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (79, 36): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (80, 20): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (80, 27): Syntax error. Unexpected token: [.
+# Error: VCP5103 pla_timerSet.v : (80, 41): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (80, 42): Syntax error. Unexpected token: ).
+# Error: VCP5103 pla_timerSet.v : (80, 54): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (80, 64): Undeclared identifier: g.
+# Error: VCP5103 pla_timerSet.v : (80, 71): Undeclared identifier: g.
+# Error: VCP2000 pla_timerSet.v : (80, 72): Syntax error. Unexpected token: ;.
+# Compile failure 74 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2858 pla_timerSet.v : (66, 166): gout[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (67, 95): gout[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2000 pla_timerSet.v : (67, 95): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (67, 134): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (67, 171): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (67, 204): Syntax error. Unexpected token: ;.
+# Error: VCP2858 pla_timerSet.v : (68, 55): gout[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2000 pla_timerSet.v : (68, 55): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (68, 97): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (68, 134): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (68, 167): Syntax error. Unexpected token: ;.
+# Error: VCP2000 pla_timerSet.v : (75, 30): Syntax error. Unexpected token: [.
+# Error: VCP2000 pla_timerSet.v : (75, 47): Syntax error. Unexpected token: ;.
+# Error: VCP2000 pla_timerSet.v : (80, 31): Syntax error. Unexpected token: [.
+# Error: VCP2000 pla_timerSet.v : (80, 48): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (80, 84): Syntax error. Unexpected token: ;.
+# Compile failure 16 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2858 pla_timerSet.v : (66, 166): gout[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (67, 95): gout[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2000 pla_timerSet.v : (67, 95): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (67, 134): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (67, 171): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (67, 204): Syntax error. Unexpected token: ;.
+# Error: VCP2858 pla_timerSet.v : (68, 55): gout[0] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2000 pla_timerSet.v : (68, 55): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (68, 97): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (68, 134): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (68, 167): Syntax error. Unexpected token: ;.
+# Compile failure 11 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/pla_timerSet.v
+# Error: VCP2858 pla_timerSet.v : (66, 166): gout[2] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2858 pla_timerSet.v : (67, 95): gout[1] is not a valid left-hand side of a procedural assignment.
+# Error: VCP2000 pla_timerSet.v : (67, 95): Syntax error. Unexpected token: ).
+# Error: VCP2000 pla_timerSet.v : (67, 134): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (67, 171): Syntax error. Unexpected token: ||[O_OR].
+# Error: VCP2000 pla_timerSet.v : (67, 204): Syntax error. Unexpected token: ;.
+# Error: VCP2858 pla_timerSet.v : (68, 55): gout[0] is not a valid left-hand side of a 
