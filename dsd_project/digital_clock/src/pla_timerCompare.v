@@ -25,11 +25,11 @@
 //{module {pla_timerSet}}
 
 module pla_timerSet (
-	input [2:0] gin,
+	input [3:0] gin,
 	input t,
 	input k7,
 	input clk,
-	output reg [2:0] gout,
+	output reg [3:0] gout,
 	output reg [7:0] T,
 	output reg [1:0] s,
 	output reg Kc,
@@ -47,13 +47,17 @@ module pla_timerSet (
 	
 	
 	
-// State 1 ( (~gin[2]) && (~gin[1]) && gin[0] )  
-// State 2 ( (~gin[2]) && gin[1] && (~gin[0]) )   
-// State 3 ( (~gin[2]) && gin[1] && gin[0] )   
-// State 4 ( gin[2] && (~gin[1]) && (~gin[0]) )   
-// State 5 ( gin[2] && (~gin[1]) && gin[0] )   
-// State 6 ( gin[2] && gin[1] && (~gin[0]) )    
-// State 7 ( gin[2] && gin[1] && gin[0] )  
+// State 1 ( (~gin[3]) && (~gin[2]) && (~gin[1]) && gin[0] )  
+// State 2 ( (~gin[3]) && (~gin[2]) && gin[1] && (~gin[0]) )   
+// State 3 ( (~gin[3]) && (~gin[2]) && gin[1] && gin[0] )   
+// State 4 ( (~gin[3]) && gin[2] && (~gin[1]) && (~gin[0]) )   
+// State 5 ( (~gin[3]) && gin[2] && (~gin[1]) && gin[0] )   
+// State 6 ( (~gin[3]) && gin[2] && gin[1] && (~gin[0]) )    
+// State 7 ( (~gin[3]) && gin[2] && gin[1] && gin[0] )  
+
+// State 8 ( gin[3] && gin[2] && gin[1] && (~gin[0]) )    
+// State 9 ( gin[3] && gin[2] && gin[1] && gin[0] )  
+// State 10 ( gin[3] && gin[2] && gin[1] && gin[0] )  
     
 	
 	
