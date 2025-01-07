@@ -17,8 +17,7 @@
 // Description : 
 //
 //-----------------------------------------------------------------------------
-
-`timescale 1ps / 1ps
+					  
 
 //{{ Section below this comment is automatically maintained
 //    and may be overwritten
@@ -64,8 +63,8 @@ module pla_timerSet (
 always @ (posedge clk) 
 	begin
 		gout[2] = ( (~gin[2]) && gin[1] && gin[0] ) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) );  //3+4+5+6
-		gout[1] = ( (~gin[2]) && (~gin[1]) && gin[0] ) || ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) ) || ( gin[2] && gin[1] && gin[0] );  //1+2+5+6+7
-		gout[0] = ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && gin[1] && (~gin[0]) ) || ( gin[2] && gin[1] && gin[0] );  //2+4+6+7
+		gout[1] = ( (~gin[2]) && (~gin[1]) && gin[0] ) || ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) ) || (~k7 && ( gin[2] && gin[1] && gin[0] ));  //1+2+5+6+7
+		gout[0] = ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && gin[1] && (~gin[0]) ) || (k7 && ( gin[2] && gin[1] && gin[0] ));  //2+4+6+7
 		
 		s[1] <= 0;
 		s[0] <= gin[2] && (~gin[1]) && gin[0];  //5
