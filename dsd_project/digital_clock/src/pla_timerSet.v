@@ -24,12 +24,12 @@
 //{module {pla_timerSet}}
 
 module pla_timerSet (
-	input [2:0] gin,
+	input [3:0] gin,
 	input t,
 	input k7,
 	input clk,
-	output reg [2:0] gout,
-	output reg [7:0] T,
+	output reg [3:0] gout,
+	output reg [9:0] T,
 	output reg [1:0] s,
 	output reg Kc,
 	output reg La,

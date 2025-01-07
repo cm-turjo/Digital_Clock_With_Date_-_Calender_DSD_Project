@@ -1,54 +1,29 @@
 
 
-module alu ( a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout );
+module alu ( A,B,S,Cin,Data,Cout );
 
-input a1;
-wire a1;
-input a2;
-wire a2;
-input a3;
-wire a3;
-input a4;
-wire a4;
-input b1;
-wire b1;
-input b2;
-wire b2;
-input b3;
-wire b3;
-input b4;
-wire b4; 
-input s1;
-wire s1;
-input s0;
-wire s0;
-input cin;
-wire cin;
-output f1;
-wire f1;
-output f2;
-wire f2;
-output f3;
-wire f3;
-output f4;
-wire f4;
-output cout;
-wire cout;
+input [5:0] A,B;
+input [1:0] S;
+input Cin;
+
+output reg [5:0] Data;
+output reg Cout;
+
+wire [5:0] Y; 
 
 
 
-
-wire wb1, wb2, wb3, wb4; 
-
-controlB cb1(b1 ,s0 ,s1 ,wb1);
-controlB cb2(b2 ,s0 ,s1 ,wb2);
-controlB cb3(b3 ,s0 ,s1 ,wb3);
-controlB cb4(b4 ,s0 ,s1 ,wb4);
+controlB yb1 (B[0], S[0], S[1], Y[0]);
+controlB yb2 (B[1], S[0], S[1], Y[1]);
+controlB yb3 (B[2], S[0], S[1], Y[2]);
+controlB yb4 (B[3], S[0], S[1], Y[3]);
+controlB yb5 (B[4], S[0], S[1], Y[4]);
+controlB yb6 (B[5], S[0], S[1], Y[5]);							  
 												 
 
 
-
-parallel_adder pa1( a1 ,a2 ,a3 ,a4 ,wb1 ,wb2 ,wb3 ,wb4 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);	 
+								 
+parallel_adder pa1( A, Y, Cin, Data, Cout);
 
 
 
