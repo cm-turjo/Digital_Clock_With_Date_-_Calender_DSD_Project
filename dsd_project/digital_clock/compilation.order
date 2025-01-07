@@ -4,3 +4,10 @@
 .\src\breadboard.v
 .\src\mux_8X1.v
 .\src\demux_1X8.v
+.\src\half_adder.v
+.\src\full_adder.v
+.\src\parallel_adder.v
+.\src\controlA.v
+.\src\controlB.v
+.\src\controlC.v
+.\src\alu.v

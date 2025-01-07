@@ -4,7 +4,7 @@
 module breadboard();
 
 reg str_clk, clk;
-											 
+
 
 always @(posedge str_clk)
 	begin 
@@ -30,3 +30,13 @@ initial
 	end
 
 endmodule
+
+
+
+
+/*
+reg a1,a2,a3,a4,b1,b2,b3,b4,s2,s1,s0,cin;
+wire f1,f2,f3,f4,cout;
+
+alu al1(a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s2 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);
+*/

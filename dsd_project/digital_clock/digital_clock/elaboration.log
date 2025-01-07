@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2025-01-07 13:04:58
+Active-HDL 15.0.261.9132 2025-01-07 13:10:50
 
 Elaboration top modules:
 Verilog Module                breadboard
@@ -15,9 +15,3 @@ Library                 | Comment
 -------------------------------------------------------------------------------------------------
 digital_clock           | None
 -------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+breadboard breadboard
-
-
-The performance of simulation is reduced. Version Student Edition
