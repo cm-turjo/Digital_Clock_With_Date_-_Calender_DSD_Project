@@ -3,7 +3,9 @@
 
 module breadboard();
 
-reg str_clk, clk;
+reg str_clk, clk;					   
+
+
 
 
 always @(posedge str_clk)
