@@ -1,4 +1,4 @@
-`timescale 1ms / 1ms
+`timescale 1ps / 1ps
 
 
 module breadboard();
@@ -8,7 +8,7 @@ reg str_clk, clk;
 
 reg [3:0] gin;
 reg [3:0] gout;
-reg [9:0] T;
+reg [3:0] T;
 reg Kc, La, Lb, Ea, Lr, Er;
 reg [1:0] s; 
 reg Cc, M, t, k7, u, Ts, c7, Az;  
@@ -63,10 +63,18 @@ always @(posedge str_clk)
 initial
 	begin
 		str_clk = 0;
-		#1; 
-	
-		str_clk = 1;
+		
+		#1;
 		gin = 001;
+		str_clk = 1;
+		t=0;
+		
+		#1;
+		t = 1;
+		k7 =1;
+		
+		#20;
+		k7 = 0;
 		
 		#100;
 		str_clk = 0;

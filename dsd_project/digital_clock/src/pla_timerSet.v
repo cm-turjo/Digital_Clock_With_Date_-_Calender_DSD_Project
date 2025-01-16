@@ -29,7 +29,7 @@ module pla_timerSet (
 	input k7,
 	input clk,
 	output reg [3:0] gout,
-	output reg [9:0] T,
+	output reg [3:0] T,
 	output reg [1:0] s,
 	output reg Kc,
 	output reg La,
@@ -64,7 +64,7 @@ always @ (posedge clk)
 	begin
 		gout[3] <= 0;
 		gout[2] <= ( (~gin[2]) && gin[1] && gin[0] ) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) );  //3+4+5+6
-		gout[1] <= ( (~gin[2]) && (~gin[1]) && gin[0] ) || ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) ) || (~k7 && ( gin[2] && gin[1] && gin[0] ));  //1+2+5+6+7
+		gout[1] <= ( t && (~gin[2]) && (~gin[1]) && gin[0] ) || ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) ) || (~k7 && ( gin[2] && gin[1] && gin[0] ));  //1+2+5+6+7
 		gout[0] <= ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && gin[1] && (~gin[0]) ) || (k7 && ( gin[2] && gin[1] && gin[0] ));  //2+4+6+7
 		
 		s[1] <= 0;
@@ -78,6 +78,9 @@ always @ (posedge clk)
 		
 		Lr <= gin[2] && gin[1] && (~gin[0]);	 //Ea
 		Er <= (gin[2] && (~gin[1]) && (~gin[0])) || ((~gin[2]) && gin[1] && gin[0]); //La+Lb 
+		
+		T <= gin; 
+		
 		
 	end
 	

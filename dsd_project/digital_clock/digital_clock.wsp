@@ -6,8 +6,8 @@ CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\digital_clock\digital_clock.adf|]
 Path=/breadboard
 [COMPILESTATUS|.\src\pla_timerSet.v]
-FileTimeLow=1493189247
-FileTimeHigh=31156272
+FileTimeLow=272154245
+FileTimeHigh=31156279
 Status=Compiled
 [COMPILESTATUS|.\src\pla_timerCompare.v]
 FileTimeLow=1580605157
@@ -18,8 +18,8 @@ FileTimeLow=533614214
 FileTimeHigh=31154399
 Status=Compiled
 [COMPILESTATUS|.\src\breadboard.v]
-FileTimeLow=475288426
-FileTimeHigh=31156272
+FileTimeLow=1580424585
+FileTimeHigh=31156279
 Status=Compiled
 [COMPILESTATUS|.\src\mux_8X1.v]
 FileTimeLow=1488595149
@@ -259,3 +259,15 @@ BookmarksLength=3
 ZoomFactor=0
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////wABAACZAAAA/wUAABUCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[COMPILESTATUS|.\src\plaTimerSetForm.asdb]
+FileTimeLow=2388922690
+FileTimeHigh=31156279
+Status=Modified
+[COMPILESTATUS|.\src\plaTimerSetForm.awc]
+FileTimeLow=2391327224
+FileTimeHigh=31156279
+Status=Modified
+[COMPILESTATUS|.\src\demux_1X8.v]
+FileTimeLow=348218603
+FileTimeHigh=31154392
+Status=Compiled
