@@ -7,10 +7,10 @@ reg str_clk, clk;
 
 
 reg [3:0] gin;
-reg [3:0] gout;
-reg [3:0] T;
-reg Kc, La, Lb, Ea, Lr, Er;
-reg [1:0] s; 
+reg [3:0] gout[2:0];
+reg [3:0] T[2:0];
+reg Kc[2:0], La[2:0], Lb[2:0], Ea[2:0], Lr[2:0], Er[2:0];
+reg [1:0] s[2:0]; 
 reg Cc, M, t, k7, u, Ts, c7, Az;  
 
 //reg LA, LB, EA, LR, ER;
@@ -18,7 +18,7 @@ reg Cc, M, t, k7, u, Ts, c7, Az;
 
 //Timer set module
 
-pla_timerSet pla1 (gin,t,k7,clk, gout,T,s,Kc,La,Lb,Ea,Lr,Er);
+//pla_timerSet pla1 (gin,t,k7,clk, gout[0],T[0],s[0],Kc[0],La[0],Lb[0],Ea[0],Lr[0],Er[0]);
 
 //Time update module
 	
@@ -26,12 +26,12 @@ pla_timerSet pla1 (gin,t,k7,clk, gout,T,s,Kc,La,Lb,Ea,Lr,Er);
 	
 //Timer compare module
 	
-//pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
+pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
 
 
 always @(*)
 	begin															  
-		gin <= gout;
+		gin <= gout[2];
 	end
 
 
@@ -73,8 +73,24 @@ initial
 		t = 1;
 		k7 =1;
 		
+		u=1;
+		
+		Ts=1;
+		Az = 1;
+		c7 =1;
+		
 		#20;
 		k7 = 0;
+		u=0;
+		
+		Az=0;
+		c7=0;
+		
+		#40;
+		u=1;
+		
+		Az=1;
+		c7=0;
 		
 		#100;
 		str_clk = 0;

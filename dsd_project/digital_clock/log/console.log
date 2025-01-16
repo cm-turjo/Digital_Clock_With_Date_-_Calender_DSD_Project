@@ -202,4 +202,1501 @@ alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
 # KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
 # KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
 # KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/breadbo
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  9:56 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:02 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:02 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:04 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:10 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:10 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:12 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Error: VCP2980 breadboard.v : (67, 1): Variable "gout" cannot be driven by both the procedural and continuous assignment statements. Use "-err VCP2980 W1" to suppress this error.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:14 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock -check $dsn/src/breadboard.v
+# Error: VCP2980 breadboard.v : (67, 1): Variable "gout" cannot be driven by both the procedural and continuous assignment statements. Use "-err VCP2980 W1" to suppress this error.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:15 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/str_clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gin" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/gout" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/T" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Kc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/La" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lb" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ea" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Lr" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Er" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/s" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Cc" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/M" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/t" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/k7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/u" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Ts" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/c7" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/breadboard/Az" has already been traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:22 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=13 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:23 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=13 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:23 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.6 [s]
+# SLP: Finished : 0.7 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=13 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:25 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=13 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:26 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:27 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:29 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: breadboard.v (21): Length of connection (10) does not match the length of port "T" (4) on instance "/breadboard/pla1".
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:47 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:47 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:48 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:49 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ms.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 573 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:50 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:52 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 33 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 574 kB (elbread=427 elab2=12 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  10:54 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerSetForm.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerSetForm.asdb'.
+# Adding file E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\plaTimerSetForm.asdb ... Done
+# Adding file E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\plaTimerSetForm.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerSet.v $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timeUpdate" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Warning: ELAB2_0051 breadboard.v (25): Length of connection (4) does not match the length of port "T" (10) on instance "/breadboard/pla2".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 22 (68.75%) signals in SLP and 8 (25.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4670 kB (elbread=427 elab2=4108 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:07 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# VSIM: 12 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+# VSIM: 1 object(s) traced.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timeUpdate.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timeUpdate" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 23 (71.88%) signals in SLP and 9 (28.12%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4670 kB (elbread=427 elab2=4109 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:08 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timeUpdate.v $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timeUpdate" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 23 (71.88%) signals in SLP and 9 (28.12%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4670 kB (elbread=427 elab2=4109 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:11 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimeUpdateForm.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimeUpdateForm.asdb'.
+# Adding file E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\plaTimeUpdateForm.asdb ... Done
+# Adding file E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\plaTimeUpdateForm.awc ... Done
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 24 (72.73%) signals in SLP and 9 (27.27%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4670 kB (elbread=427 elab2=4109 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:26 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 24 (72.73%) signals in SLP and 9 (27.27%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4670 kB (elbread=427 elab2=4109 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:27 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+breadboard breadboard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerSet" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerCompare" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Warning: ELAB2_0051 breadboard.v (29): Length of connection (4) does not match the length of port "T" (10) on instance "/breadboard/pla3".
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.8 [s]
+# SLP: Finished : 0.9 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 26 (72.22%) signals in SLP and 8 (22.22%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.9 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4671 kB (elbread=427 elab2=4110 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:54 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# VSIM: 20 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_timerCompare.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerCompare" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 27 (75.00%) signals in SLP and 9 (25.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4671 kB (elbread=427 elab2=4110 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:54 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "pla_timerCompare" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 27 (75.00%) signals in SLP and 9 (25.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4671 kB (elbread=427 elab2=4110 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\wave.asdb
+#  11:58 PM, Thursday, January 16, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerCompare.awc' connected to 'E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerCompare.asdb'.
+# Adding file E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\plaTimerCompare.asdb ... Done
+# Adding file E:\LAB\Digital_Clock_With_Date_-_Calender_DSD_Project\dsd_project\digital_clock\src\plaTimerCompare.awc ... Done

@@ -6,7 +6,7 @@ module pla_timeUpdate (
 	//input k7,
 	input clk,
 	output reg [3:0] gout,
-	output reg [9:0] T,
+	output reg [3:0] T,
 	output reg [1:0] s,
 	output reg Kc,
 	output reg La,
@@ -39,11 +39,13 @@ module pla_timeUpdate (
 // Enter your statements here //
 always @ (posedge clk) 
 	begin
+		gout[3] = 0;
+		
 		gout[2] = ( (~gin[2]) && gin[1] && gin[0] ) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) );  //3+4+5+6
 		
-		gout[1] = ( (~gin[2]) && (~gin[1]) && gin[0] ) || ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) ) || ( gin[2] && gin[1] && gin[0] && u );  //1+2+5+6+7	
+		gout[1] = ( u && (~gin[2]) && (~gin[1]) && gin[0] ) || ( (~gin[2]) && gin[1] && (~gin[0]) ) || ( gin[2] && (~gin[1]) && gin[0] ) || ( gin[2] && gin[1] && (~gin[0]) ) || ( gin[2] && gin[1] && gin[0] && u );  //u1+2+5+6+7u	
 		
-		gout[0] = ((~gin[2]) && gin[1] && (~gin[0])) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && gin[1] && (~gin[0]) ) || ( gin[2] && gin[1] && gin[0] && (~u) );  //2+4+6+7
+		gout[0] = ((~gin[2]) && gin[1] && (~gin[0])) || ( gin[2] && (~gin[1]) && (~gin[0]) ) || ( gin[2] && gin[1] && (~gin[0]) ) || ( gin[2] && gin[1] && gin[0] && (~u) );  //2+4+6+7u'
 		
 		s[1] <= 0;
 		//s[0] <= gin[2] && (~gin[1]) && gin[0];  //5	
@@ -63,6 +65,7 @@ always @ (posedge clk)
 		
 		Er <= 	(~gin[2]) && gin[1] && (gin[0] );//17
 		
+		T <= gin;
 		
 	end
 	
