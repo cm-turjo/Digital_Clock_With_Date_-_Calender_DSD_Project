@@ -29,7 +29,7 @@ pla_timerSet pla1 (gin,t,k7,clk, gout,T,s,Kc,La,Lb,Ea,Lr,Er);
 //pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
 
 
-always @(negedge clk)
+always @(*)
 	begin															  
 		gin <= gout;
 	end
@@ -64,9 +64,9 @@ initial
 	begin
 		str_clk = 0;
 		#1; 
-		gin = 001;
+	
 		str_clk = 1;
-		
+		gin = 001;
 		
 		#100;
 		str_clk = 0;

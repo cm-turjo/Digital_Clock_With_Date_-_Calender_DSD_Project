@@ -1,4 +1,4 @@
-timestamp=1737042821988
+timestamp=1737043480095
 
 [~A]
 E:/LAB/DSD/dsd_project/digital_clock/src/breadboard.v=0*10660*10993
@@ -8,30 +8,30 @@ E:/LAB/DSD/dsd_project/digital_clock/src/pla_timeUpdate.v=0*5447*5768
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerCompare.v=0*3954*4725
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerSet.v=0*2207*2974
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*67446*68055
-E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*81842*82602
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*87208*87968
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlB.v=0*64067*64553
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/demux_1X8.v=0*48828*49363
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/mux_8X1.v=0*28956*29361
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/parallel_adder.v=0*65669*66305
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timeUpdate.v=0*58126*58938
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerCompare.v=0*60117*61059
-E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v=0*56150*56976
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v=0*89086*89912
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_breadboard.v=0*79617*80777
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_pla_timerCompare.v_pla_timeUpdate.v_breadboard.v_mux_8X1.v_demux_1X8.v_half_adder.v_full_adder.v_parallel_adder.v_controlA.v_controlB.v_controlC.v_alu.v=0*38372*40616
 LastVerilogToplevel=breadboard
-ModifyID=47
+ModifyID=51
 Version=74
 
 [~MFT]
-0=6|0digital_clock.mgf|82602|38474
-1=4|1digital_clock.mgf|106949|89929
-3=8|3digital_clock.mgf|75889|62051
+0=6|0digital_clock.mgf|89912|44002
+1=4|1digital_clock.mgf|118312|100820
+3=8|3digital_clock.mgf|81490|68731
 
 [$root]
-A/$root=22|||1*106543
-BinW64/$root=3*74945
-SLP=3*75060
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921623058e27fb0889bf8155e3c9804f6859
+A/$root=22|||1*117922
+BinW64/$root=3*80383
+SLP=3*80498
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921626ff9cbb742c4eeeac3043426f4527a8
 
 [alu]
 A/alu=22|../src/alu.v|3|1*76566
@@ -41,11 +41,11 @@ SLP=3*59895
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fdc9c85601beb4171a6a25c637e2168e90913066a3c7212752f9d59d257686ae
 
 [breadboard]
-A/breadboard=22|../src/breadboard.v|4|1*106949
-BinW64/breadboard=3*75128
+A/breadboard=22|../src/breadboard.v|4|1*115477
+BinW64/breadboard=3*79223
 R=../src/breadboard.v|4
-SLP=3*75889
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a1470bed9222bf3b8b612fe4509032fd8
+SLP=3*79956
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a9882a61672efc111e21e523b7218dc2c
 
 [controlA]
 A/controlA=22|../src/controlA.v|27|1*40142
@@ -118,16 +118,16 @@ SLP=3*54353
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ffc29bcbc627490e88c616545c37b2a4d92e70f67401853fc6d4e6e0c713f0b58004899a37061406e589e198665e489b
 
 [pla_timerSet]
-A/pla_timerSet=22|../src/pla_timerSet.v|26|1*102125
-BinW64/pla_timerSet=3*71341
+A/pla_timerSet=22|../src/pla_timerSet.v|26|1*118312
+BinW64/pla_timerSet=3*80566
 R=../src/pla_timerSet.v|26
-SLP=3*72315
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|28934e5797b04852a0c94de2f1ecfb3f5545d284a7a776cd7926d0ffa0c80d4fd7aa0af9ae835cfc5866c4ae5c28e55e
+SLP=3*81490
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|28934e5797b04852a0c94de2f1ecfb3f5545d284a7a776cd7926d0ffa0c80d4f515949d4019ad987bf8b706b4c95d582
 
 [~U]
-$root=12|0*81417|
+$root=12|0*88561|
 alu=12|0*67180||0x10
-breadboard=12|0*81663||0x10
+breadboard=12|0*87029||0x10
 controlA=12|0*37623|
 controlB=12|0*63866|
 controlC=12|0*37429|
@@ -138,4 +138,4 @@ mux_8X1=12|0*36367||0x10
 parallel_adder=12|0*65406|
 pla_timeUpdate=12|0*57849||0x10
 pla_timerCompare=12|0*59813||0x10
-pla_timerSet=12|0*79159|
+pla_timerSet=12|0*88807|

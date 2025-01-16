@@ -6,8 +6,8 @@ CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\digital_clock\digital_clock.adf|]
 Path=/breadboard
 [COMPILESTATUS|.\src\pla_timerSet.v]
-FileTimeLow=342137026
-FileTimeHigh=31156270
+FileTimeLow=1493189247
+FileTimeHigh=31156272
 Status=Compiled
 [COMPILESTATUS|.\src\pla_timerCompare.v]
 FileTimeLow=1580605157
@@ -18,8 +18,8 @@ FileTimeLow=533614214
 FileTimeHigh=31154399
 Status=Compiled
 [COMPILESTATUS|.\src\breadboard.v]
-FileTimeLow=3501941225
-FileTimeHigh=31156270
+FileTimeLow=475288426
+FileTimeHigh=31156272
 Status=Compiled
 [COMPILESTATUS|.\src\mux_8X1.v]
 FileTimeLow=1488595149
