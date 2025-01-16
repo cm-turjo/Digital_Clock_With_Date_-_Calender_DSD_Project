@@ -7,48 +7,43 @@ reg str_clk, clk;
 
 
 reg [3:0] gin;
-reg [3:0] gout [2:0];
-reg [9:0] T [2:0];
-reg Kc [2:0], La [2:0], Lb[2:0], Ea[2:0], Lr[2:0], Er[2:0];
-reg [1:0] s[2:0]; 
+reg [3:0] gout;
+reg [9:0] T;
+reg Kc, La, Lb, Ea, Lr, Er;
+reg [1:0] s; 
 reg Cc, M, t, k7, u, Ts, c7, Az;  
 
-reg LA, LB, EA, LR, ER;
+//reg LA, LB, EA, LR, ER;
 
 
 //Timer set module
 
-pla_timerSet pla1 (gin,t,k7,clk, gout[0],T[0],s[0],Kc[0],La[0],Lb[0],Ea[0],Lr[0],Er[0]);
+pla_timerSet pla1 (gin,t,k7,clk, gout,T,s,Kc,La,Lb,Ea,Lr,Er);
 
 //Time update module
 	
-pla_timeUpdate pla2 (gin,u,clk, gout[1],T[1],s[1],Kc[1],La[1],Lb[1],Ea[1],Lr[1],Er[1]);
+//pla_timeUpdate pla2 (gin,u,clk, gout[1],T[1],s[1],Kc[1],La[1],Lb[1],Ea[1],Lr[1],Er[1]);
 	
 //Timer compare module
 	
-pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
+//pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
 
 
-always @(posedge clk)
-	begin
-		gin = gout[0] | gout[1] | gout[2];
-		LA = La[0] | La[1] | La[2];
-		LB = Lb[0] | Lb[1] | Lb[2];
-		EA = Ea[0] | Ea[1] | Ea[2];
-		LR = Lr[0] | Lr[1] | Lr[2];
-		EA = Er[0] | Er[1] | Er[2];
+always @(negedge clk)
+	begin															  
+		gin <= gout;
 	end
 
 
 
 
-reg [5:0] A,B,Data;
-reg [1:0] S;
-reg Cin,Cout;
+//reg [5:0] A,B,Data;
+//reg [1:0] S;
+//reg Cin,Cout;
 
-wire [5:0] databus;
+//wire [5:0] databus;
 
-alu a1(A,B,S,Cin,Data,Cout);
+//alu a1(A,B,S,Cin,Data,Cout);
 																 
 
 
@@ -69,6 +64,7 @@ initial
 	begin
 		str_clk = 0;
 		#1; 
+		gin = 001;
 		str_clk = 1;
 		
 		
