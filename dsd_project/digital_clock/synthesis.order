@@ -7,7 +7,6 @@ i<>.\src\demux_1X8.v
 i<>.\src\half_adder.v
 i<>.\src\full_adder.v
 i<>.\src\parallel_adder.v
-i<>.\src\controlA.v
 i<>.\src\controlB.v
-i<>.\src\controlC.v
 i<>.\src\alu.v
+i<>.\src\second.v

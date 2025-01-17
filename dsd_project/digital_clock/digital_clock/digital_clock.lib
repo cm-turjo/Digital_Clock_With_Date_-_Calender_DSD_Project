@@ -1,4 +1,4 @@
-timestamp=1737120228467
+timestamp=1737124242084
 
 [~A]
 E:/LAB/DSD/dsd_project/digital_clock/src/breadboard.v=0*10660*10993
@@ -8,7 +8,7 @@ E:/LAB/DSD/dsd_project/digital_clock/src/pla_timeUpdate.v=0*5447*5768
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerCompare.v=0*3954*4725
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerSet.v=0*2207*2974
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*67446*68055
-E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*141024*141864
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*170405*171229
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlB.v=0*64067*64553
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/demux_1X8.v=0*48828*49363
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/mux_8X1.v=0*28956*29361
@@ -19,20 +19,21 @@ E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v=0*114382*115224
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_breadboard.v=0*120915*122139
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_pla_timerCompare.v_pla_timeUpdate.v_breadboard.v_mux_8X1.v_demux_1X8.v_half_adder.v_full_adder.v_parallel_adder.v_controlA.v_controlB.v_controlC.v_alu.v=0*38372*40616
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second.v=0*172318*173010
 LastVerilogToplevel=breadboard
-ModifyID=77
+ModifyID=97
 Version=74
 
 [~MFT]
-0=6|0digital_clock.mgf|141864|81131
-1=4|1digital_clock.mgf|203385|186545
-3=8|3digital_clock.mgf|143327|128834
+0=6|0digital_clock.mgf|173010|102900
+1=4|1digital_clock.mgf|247235|228290
+3=8|3digital_clock.mgf|171880|155683
 
 [$root]
-A/$root=22|||1*202995
-BinW64/$root=3*142166
-SLP=3*142281
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92163f17d6be516bd4d2057c20910db8e76a
+A/$root=22|||1*246845
+BinW64/$root=3*170421
+SLP=3*170536
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216c13fb75338fd3293444a7a5b33afac27
 
 [alu]
 A/alu=22|../src/alu.v|3|1*76566
@@ -42,14 +43,13 @@ SLP=3*59895
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fdc9c85601beb4171a6a25c637e2168e90913066a3c7212752f9d59d257686ae
 
 [breadboard]
-A/breadboard=22|../src/breadboard.v|4|1*203385
-BinW64/breadboard=3*142349
+A/breadboard=22|../src/breadboard.v|4|1*243675
+BinW64/breadboard=3*169015
 R=../src/breadboard.v|4
-SLP=3*143327
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a9e6c6152c16bc486b0c043b0c7f421c3
+SLP=3*169873
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a2ca956a866aae46f719c567078bc1196
 
 [controlA]
-A/controlA=22|../src/controlA.v|27|1*40142
 BinW64/controlA=3*35607
 R=../src/controlA.v|27
 SLP=3*36095
@@ -125,10 +125,17 @@ R=../src/pla_timerSet.v|26
 SLP=3*116329
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|28934e5797b04852a0c94de2f1ecfb3f5545d284a7a776cd7926d0ffa0c80d4fa35093187ab756bc3e9eccef56733b1f
 
+[second]
+A/second=22|../src/second.v|1|1*247235
+BinW64/second=3*170604
+R=../src/second.v|1
+SLP=3*171880
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5a60c45940e9c7c9356457af3f1082ba1cd8bf103545e0a7fa8191efb0b7d29b
+
 [~U]
-$root=12|0*140624|
+$root=12|0*171838|
 alu=12|0*67180||0x10
-breadboard=12|0*140854||0x10
+breadboard=12|0*170232||0x10
 controlA=12|0*37623|
 controlB=12|0*63866|
 controlC=12|0*37429|
@@ -140,3 +147,4 @@ parallel_adder=12|0*65406|
 pla_timeUpdate=12|0*124971|
 pla_timerCompare=12|0*131309|
 pla_timerSet=12|0*120457|
+second=12|0*172068|

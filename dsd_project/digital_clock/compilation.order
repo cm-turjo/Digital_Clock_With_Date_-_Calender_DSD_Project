@@ -7,7 +7,6 @@
 .\src\half_adder.v
 .\src\full_adder.v
 .\src\parallel_adder.v
-.\src\controlA.v
 .\src\controlB.v
-.\src\controlC.v
 .\src\alu.v
+.\src\second.v

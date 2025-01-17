@@ -4,6 +4,15 @@
 module breadboard();
 
 reg str_clk, clk;					   
+wire [5:0] databus;
+
+
+reg [5:0] sec;
+reg load,clear,enable;
+second s1(clk, load, clear,	enable,	databus, sec, databus);
+	
+
+
 
 
 reg [3:0] gin;
@@ -37,13 +46,13 @@ always @(*)
 
 
 
-reg [5:0] A,B,Data;
-reg [1:0] S;
-reg Cin,Cout;
+//reg [5:0] A,B,Data;
+//reg [1:0] S;
+//reg Cin,Cout;
 
-wire [5:0] databus;
+//wire [5:0] databus;
 
-alu a1(A,B,S,Cin,Data,Cout);
+//alu a1(A,B,S,Cin,Data,Cout);
 																 
 
 
@@ -69,20 +78,10 @@ initial
 		str_clk = 1;
 		t=0;
 		
+		enable = 1 ;
+		load = 0;
 		
-		#1;
-		A <= 6'h9;
-		B <= 6'h6;
-		S <= 01;
-		Cin <= 0;
-		
-		#1;
-		A <= 6'hF;
-		B <= 6'h9;
-		S <= 10;
-		Cin <= 1;
-		
-		#1;
+		#140;
 		str_clk = 0;
 		
 	end
@@ -104,9 +103,9 @@ alu al1(a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s2 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);
 
 
 
+	------pla--------
 
-
-#1;
+		#1;
 		t = 1;
 		k7 =1;
 		
@@ -129,6 +128,23 @@ alu al1(a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s2 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);
 		Az=1;
 		c7=0;
 		
-
+  
+		
+		
+	---Alu----
+		
+		#1;
+		A <= 6'h9;
+		B <= 6'h6;
+		S <= 01;
+		Cin <= 0;
+		
+		#1;
+		A <= 6'hF;
+		B <= 6'h9;
+		S <= 10;
+		Cin <= 1;
+		
+		
 
 */
