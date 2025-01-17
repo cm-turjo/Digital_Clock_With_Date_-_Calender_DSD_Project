@@ -26,7 +26,7 @@ reg Cc, M, t, k7, u, Ts, c7, Az;
 	
 //Timer compare module
 	
-pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
+//pla_timerCompare pla3 (gin,Ts,c7,Az,clk, gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M);
 
 
 always @(*)
@@ -37,13 +37,13 @@ always @(*)
 
 
 
-//reg [5:0] A,B,Data;
-//reg [1:0] S;
-//reg Cin,Cout;
+reg [5:0] A,B,Data;
+reg [1:0] S;
+reg Cin,Cout;
 
-//wire [5:0] databus;
+wire [5:0] databus;
 
-//alu a1(A,B,S,Cin,Data,Cout);
+alu a1(A,B,S,Cin,Data,Cout);
 																 
 
 
@@ -65,11 +65,48 @@ initial
 		str_clk = 0;
 		
 		#1;
-		gin = 001;
+		gin = 4'b0001;
 		str_clk = 1;
 		t=0;
 		
+		
 		#1;
+		A <= 6'h9;
+		B <= 6'h6;
+		S <= 01;
+		Cin <= 0;
+		
+		#1;
+		A <= 6'hF;
+		B <= 6'h9;
+		S <= 10;
+		Cin <= 1;
+		
+		#1;
+		str_clk = 0;
+		
+	end
+
+endmodule
+
+
+
+
+/*
+reg a1,a2,a3,a4,b1,b2,b3,b4,s2,s1,s0,cin;
+wire f1,f2,f3,f4,cout;
+
+
+alu al1(a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s2 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);
+
+
+
+
+
+
+
+
+#1;
 		t = 1;
 		k7 =1;
 		
@@ -92,19 +129,6 @@ initial
 		Az=1;
 		c7=0;
 		
-		#100;
-		str_clk = 0;
-		
-	end
-
-endmodule
 
 
-
-
-/*
-reg a1,a2,a3,a4,b1,b2,b3,b4,s2,s1,s0,cin;
-wire f1,f2,f3,f4,cout;
-
-alu al1(a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s2 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);
 */

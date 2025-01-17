@@ -77,6 +77,8 @@ extension11=asdb;awc;asdbc;asdbe
 /plaTimeUpdateForm.awc=-1
 /plaTimerCompare.asdb=-1
 /plaTimerCompare.awc=-1
+/aluForm.asdb=-1
+/aluForm.awc=-1
 [Files.Data]
 .\src\pla_timerSet.v=Verilog Source Code
 .\src\pla_timerCompare.v=Verilog Source Code
@@ -97,3 +99,5 @@ extension11=asdb;awc;asdbc;asdbe
 .\src\plaTimeUpdateForm.awc=Accelerated Waveform Configuration
 .\src\plaTimerCompare.asdb=Accelerated Waveform File
 .\src\plaTimerCompare.awc=Accelerated Waveform Configuration
+.\src\aluForm.asdb=Accelerated Waveform File
+.\src\aluForm.awc=Accelerated Waveform Configuration

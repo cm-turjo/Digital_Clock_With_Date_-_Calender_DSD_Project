@@ -1,0 +1,10 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\digital_clock\src/pla_timerSet.v|]
+TemplateId=2
+ActiveDocument=1
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\digital_clock\src/pla_timerCompare.v|]
+TemplateId=2
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\digital_clock\src/pla_timeUpdate.v|]
+TemplateId=2
+tab=lu

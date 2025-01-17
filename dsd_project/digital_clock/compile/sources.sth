@@ -1,4 +1,8 @@
 [Files List]
 C:/Aldec/Active-HDL-Student-Edition/vlib/std/src/standard.vhd=S
-E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerCompare.v=S
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/half_adder.v=S
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/full_adder.v=S
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/parallel_adder.v=S
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlB.v=S
+E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=S
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=S
