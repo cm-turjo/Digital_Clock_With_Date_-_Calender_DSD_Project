@@ -18,8 +18,8 @@ FileTimeLow=3127612953
 FileTimeHigh=31156281
 Status=Compiled
 [COMPILESTATUS|.\src\breadboard.v]
-FileTimeLow=19838926
-FileTimeHigh=31156460
+FileTimeLow=3774219744
+FileTimeHigh=31156476
 Status=Compiled
 [COMPILESTATUS|.\src\mux_8X1.v]
 FileTimeLow=1488595149
@@ -243,3 +243,15 @@ Status=Modified
 FileTimeLow=1821893477
 FileTimeHigh=31156460
 Status=Modified
+[COMPILESTATUS|.\src\minute.v]
+FileTimeLow=271809010
+FileTimeHigh=31156463
+Status=Compiled
+[COMPILESTATUS|.\src\jk_flipflop.v]
+FileTimeLow=3919783678
+FileTimeHigh=31156471
+Status=Compiled
+[COMPILESTATUS|.\src\counter.v]
+FileTimeLow=879481496
+FileTimeHigh=31156478
+Status=Compiled

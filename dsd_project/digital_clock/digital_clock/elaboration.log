@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2025-01-17 20:30:42
+Active-HDL 15.0.261.9132 2025-01-17 22:28:45
 
 Elaboration top modules:
 Verilog Module                breadboard
@@ -8,7 +8,8 @@ Verilog Module                breadboard
 Verilog Module          | Library       | Info | Compiler Version          | Compilation Options
 -------------------------------------------------------------------------------------------------
 breadboard              | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
-second                  | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+counter                 | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+jk_flipflop             | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 -------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------

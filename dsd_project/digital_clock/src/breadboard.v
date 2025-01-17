@@ -4,13 +4,18 @@
 module breadboard();
 
 reg str_clk, clk;					   
-wire [5:0] databus;
+//wire [5:0] databus;
+
+reg fin;
+reg [5:0] fout;
+counter	c1(clk,1,fin,fout);
 
 
-reg [5:0] sec;
-reg load,clear,enable;
-second s1(clk, load, clear,	enable,	databus, sec, databus);
-	
+//reg [5:0] sec, min;
+//reg load,clear,enable, mload, menable;
+
+//second s1(clk, load, clear,	enable,	databus, sec, databus);
+//minute m1(clk, mload, clear, menable, databus, min, databus);	
 
 
 
@@ -21,8 +26,6 @@ reg [3:0] T[2:0];
 reg Kc[2:0], La[2:0], Lb[2:0], Ea[2:0], Lr[2:0], Er[2:0];
 reg [1:0] s[2:0]; 
 reg Cc, M, t, k7, u, Ts, c7, Az;  
-
-//reg LA, LB, EA, LR, ER;
 
 
 //Timer set module
@@ -77,11 +80,9 @@ initial
 		gin = 4'b0001;
 		str_clk = 1;
 		t=0;
-		
-		enable = 1 ;
-		load = 0;
-		
-		#140;
+		fin=0;
+			   
+		#60;
 		str_clk = 0;
 		
 	end
@@ -92,18 +93,24 @@ endmodule
 
 
 /*
-reg a1,a2,a3,a4,b1,b2,b3,b4,s2,s1,s0,cin;
-wire f1,f2,f3,f4,cout;
+
+----databus second minute----
+			#1;
+		menable = 1;
+		load = 1;
+		
+		enable = 0;
+		mload = 0;
+		
+		#2;
+		enable = 1;
+		mload = 1;
+		
+		menable = 0;
+		load = 0;
 
 
-alu al1(a1 ,a2 ,a3 ,a4 ,b1 ,b2 ,b3 ,b4 ,s2 ,s1 ,s0 ,cin ,f1 ,f2 ,f3 ,f4 ,cout);
-
-
-
-
-
-
-	------pla--------
+------pla--------
 
 		#1;
 		t = 1;

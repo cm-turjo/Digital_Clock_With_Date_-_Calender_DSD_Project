@@ -10,3 +10,6 @@
 .\src\controlB.v
 .\src\alu.v
 .\src\second.v
+.\src\minute.v
+.\src\jk_flipflop.v
+.\src\counter.v

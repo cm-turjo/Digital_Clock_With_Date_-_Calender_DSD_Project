@@ -80,6 +80,9 @@ extension11=asdb;awc;asdbc;asdbe
 /aluForm.awc=-1
 /secondForm.asdb=-1
 /secondForm.awc=-1
+/minute.v=-1
+/jk_flipflop.v=-1
+/counter.v=-1
 [Files.Data]
 .\src\pla_timerSet.v=Verilog Source Code
 .\src\pla_timerCompare.v=Verilog Source Code
@@ -103,3 +106,6 @@ extension11=asdb;awc;asdbc;asdbe
 .\src\aluForm.awc=Accelerated Waveform Configuration
 .\src\secondForm.asdb=Accelerated Waveform File
 .\src\secondForm.awc=Accelerated Waveform Configuration
+.\src\minute.v=Verilog Source Code
+.\src\jk_flipflop.v=Verilog Source Code
+.\src\counter.v=Verilog Source Code

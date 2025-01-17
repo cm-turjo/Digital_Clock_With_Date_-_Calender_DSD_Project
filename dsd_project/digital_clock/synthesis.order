@@ -10,3 +10,6 @@ i<>.\src\parallel_adder.v
 i<>.\src\controlB.v
 i<>.\src\alu.v
 i<>.\src\second.v
+i<>.\src\minute.v
+i<>.\src\jk_flipflop.v
+i<>.\src\counter.v
