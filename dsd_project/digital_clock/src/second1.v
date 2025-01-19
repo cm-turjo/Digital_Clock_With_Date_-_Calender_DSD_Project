@@ -5,14 +5,15 @@ module second1(
 	input enable,
 	input [5:0] data,
 	output reg [5:0] sec,
-	output reg [5:0] databus
+	output reg [5:0] databus,
+	output reg secCount
 	);
 
 wire [5:0] restart, en, ld;	
 assign restart = {6{sec[5] && sec[4] && sec[3] && (~sec[2]) && sec[1] && sec[0]}};	 //59
 assign en = {6{enable}};
 assign ld = {6{load}};
-
+assign secCount = {sec[5] && sec[4] && sec[3] && (~sec[2]) && sec[1] && sec[0]}; 
 
 initial
 	begin

@@ -10,21 +10,22 @@ reg [5:0] sec1, sec2, min1, min2, year;
 reg [4:0] hour1, hour2, date;
 reg [3:0] month;
 reg [2:0] day;
-reg load,clear,enable;
+reg load,clear,enable,secCount,minCount,hourCount,dayCount,dateCount,monthCount,yearCount;
 
 
 wire [5:0] databus;
 
-second1 s1(clk, load, clear, enable, databus, sec1, databus);
-second2 s2(clk, load, clear, enable, databus, sec2, databus);
-minute m1(clk, load, clear, enable, databus, min1, databus);	
-minute2 m2(clk, load, clear, enable, databus, min2, databus);
-hour1 h1(clk, load, clear, enable, databus, hour1, databus);
-hour2 h2(clk, load, clear, enable, databus, hour2, databus);
-month mn1(clk, load, clear,enable, databus, month, databus);
-date d1(clk, load, clear, enable, databus, date, databus);
-day dy1(clk, load, clear, enable, databus, day, databus);
-year y1(clk, load, clear, enable, databus, year, databus);
+second1 s1(clk, load, clear, enable, databus, sec1, databus, secCount);
+//second2 s2(clk, load, clear, enable, databus, sec2, databus);
+minute m1(clk, load, clear, enable, databus, secCount, min1, databus, minCount);	
+//minute2 m2(clk, load, clear, enable, databus, min2, databus);
+hour1 h1(clk, load, clear, enable, databus, minCount, hour1, databus, hourCount);
+//hour2 h2(clk, load, clear, enable, databus, hour2, databus);
+
+day dy1(clk, load, clear, enable, databus, hourCount, day, databus, dayCount);
+//date d1(clk, load, clear, enable, databus, dayCount, date, databus, dateCount);
+//month mn1(clk, load, clear,enable, databus, dateCount, month, databus, monthCount);
+//year y1(clk, load, clear, enable, databus, monthCount, year, databus, yearCount);
 
 
 
@@ -101,13 +102,13 @@ initial
 		str_clk = 0;
 		
 		#1;							
-		load = 0;
+		load = 0;	  
 		
 		str_clk = 1;   
 		
 						
 		
-		#120;
+		#1000;
 		str_clk = 0;
 		
 	end
