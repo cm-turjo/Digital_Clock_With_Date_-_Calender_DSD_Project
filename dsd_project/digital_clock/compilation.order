@@ -16,8 +16,6 @@
 .\src\hour1.v
 .\src\second2.v
 .\src\minute2.v
-.\src\monthgpt.v
-.\src\hourgpt.v
 .\src\hour2.v
 .\src\month.v
 .\src\date.v

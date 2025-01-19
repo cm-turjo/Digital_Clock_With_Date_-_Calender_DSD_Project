@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2025-01-19 14:22:42
+Active-HDL 15.0.261.9132 2025-01-19 18:47:38
 
 Elaboration top modules:
 Verilog Module                breadboard
@@ -9,6 +9,16 @@ Verilog Module          | Library       | Info | Compiler Version          | Com
 -------------------------------------------------------------------------------------------------
 breadboard              | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 counter                 | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+second1                 | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+second2                 | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+minute                  | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+minute2                 | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+hour1                   | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+hour2                   | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+month                   | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+date                    | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+day                     | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+year                    | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 jk_flipflop             | digital_clock |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
 -------------------------------------------------------------------------------------------------
 
@@ -17,3 +27,9 @@ Library                 | Comment
 -------------------------------------------------------------------------------------------------
 digital_clock           | None
 -------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+breadboard breadboard
+
+
+The performance of simulation is reduced. Version Student Edition

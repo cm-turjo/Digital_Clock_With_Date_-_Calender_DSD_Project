@@ -4,19 +4,29 @@
 module breadboard();
 
 reg str_clk, clk;					   
-//wire [5:0] databus;
+wire [5:0] databus;
 
 reg fin;
 reg [5:0] fout;
 counter	c1(clk,1,fin,fout);
 
 
-//reg [5:0] sec, min;
-//reg load,clear,enable, mload, menable;
+reg [5:0] sec1, sec2, min1, min2, year;
+reg [4:0] hour1, hour2, date;
+reg [3:0] month;
+reg [2:0] day;
+reg load,clear,enable, mload, menable;
 
-//second s1(clk, load, clear,	enable,	databus, sec, databus);
-//minute m1(clk, mload, clear, menable, databus, min, databus);	
-
+second1 s1(clk, load, clear, enable, databus, sec1, databus);
+second2 s2(clk, load, clear, enable, databus, sec2, databus);
+minute m1(clk, load, clear, enable, databus, min1, databus);	
+minute2 m2(clk, load, clear, enable, databus, min2, databus);
+hour1 h1(clk, load, clear, enable, databus, hour1, databus);
+hour2 h2(clk, load, clear, enable, databus, hour2, databus);
+month mn1(clk, load, clear,enable, databus, month, databus);
+date d1(clk, load, clear, enable, databus, date, databus);
+day dy1(clk, load, clear, enable, databus, day, databus);
+year y1(clk, load, clear, enable, databus, year, databus);
 
 
 
@@ -79,10 +89,10 @@ initial
 		#1;
 		gin = 4'b0001;
 		str_clk = 1;
-		t=0;
-		fin=0;
+		
+		load = 0;
 			   
-		#60;
+		#120;
 		str_clk = 0;
 		
 	end

@@ -1,4 +1,4 @@
-module minute(
+module minute2(
 	input clk,
 	input load,
 	input clear,
@@ -21,7 +21,7 @@ initial
 
 always @ (posedge clk)
 	begin		
-		min <= (~(restart)) & (min + 1) & (~ld) | (ld & data);		
+		min <= ((~restart) & (min + 1) & (~ld)) | (ld & data);		
 		end
 
 assign databus = en & min;

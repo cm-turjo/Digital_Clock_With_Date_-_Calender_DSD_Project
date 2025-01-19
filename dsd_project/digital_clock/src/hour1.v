@@ -21,7 +21,7 @@ initial
 
 always @ (posedge clk)
 	begin		
-		hour <= (~(restart)) & (hour + 1) & (~ld) | (ld & data);		
+		hour <= ((~restart) & (hour + 1) & (~ld)) | (ld & data);		
 		end
 
 assign databus = en & hour;

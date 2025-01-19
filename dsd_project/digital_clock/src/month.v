@@ -21,7 +21,7 @@ initial
 
 always @ (posedge clk)
 	begin		
-		month <= (~(restart)) & (month + 1) & (~ld) | (ld & data);		
+		month <= ((~restart) & (month + 1) & (~ld)) | (ld & data);		
 		end
 
 assign databus = en & month;

@@ -1,5 +1,14 @@
 [Files List]
 C:/Aldec/Active-HDL-Student-Edition/vlib/std/src/standard.vhd=S
-D:/Academic/4-2/DSD Mahbub/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/jk_flipflop.v=S
-D:/Academic/4-2/DSD Mahbub/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/counter.v=S
-D:/Academic/4-2/DSD Mahbub/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/jk_flipflop.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/year.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/day.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/date.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/month.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hour2.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hour1.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minute2.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second2.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second1.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/counter.v=S
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=S

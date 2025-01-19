@@ -21,7 +21,7 @@ initial
 
 always @ (posedge clk)
 	begin		
-		sec <= (~(restart)) & (sec + 1) & (~ld) | (ld & data);		
+		sec <= ((~restart) & (sec + 1) & (~ld)) | (ld & data);		
 		end
 
 assign databus = en & sec;

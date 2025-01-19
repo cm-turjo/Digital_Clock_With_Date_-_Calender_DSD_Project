@@ -9,19 +9,19 @@ module day(
 	);
 
 wire [2:0] restart, en, ld;	
-assign restart = {3{day[2] && day[1] && (~day[0])}};	 //6
+assign restart = {3{day[2] && day[1] && day[0]}};	 //7
 assign en = {3{enable}};
 assign ld = {3{load}};
 
 
 initial
 	begin
-		day = 3'h0;
+		day = 3'h1;
 		end
 
 always @ (posedge clk)
 	begin		
-		day <= (~(restart)) & (day + 1) & (~ld) | (ld & data);		
+		day <= ((~restart) & (day + 1) & (~ld)) | (ld & data);		
 		end
 
 assign databus = en & day;
