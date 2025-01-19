@@ -1,3 +1,5 @@
+.\src\pla_status.v
+.\src\alu_control_signal.v
 .\src\pla_timerSet.v
 .\src\pla_timerCompare.v
 .\src\pla_timeUpdate.v

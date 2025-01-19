@@ -58,6 +58,8 @@ name11=Waveform Files
 directory11=E:\LAB\DSD\dsd_project\digital_clock\
 extension11=asdb;awc;asdbc;asdbe
 [Files]
+/pla_status.v=-1
+/alu_control_signal.v=-1
 /pla_timerSet.v=-1
 /pla_timerCompare.v=-1
 /pla_timeUpdate.v=-1
@@ -93,7 +95,11 @@ extension11=asdb;awc;asdbc;asdbe
 /secondForm.awc=-1
 /all_counterForm.asdb=-1
 /all_counterForm.awc=-1
+/controlLogicForm.asdb=-1
+/controlLogicForm.awc=-1
 [Files.Data]
+.\src\pla_status.v=Verilog Source Code
+.\src\alu_control_signal.v=Verilog Source Code
 .\src\pla_timerSet.v=Verilog Source Code
 .\src\pla_timerCompare.v=Verilog Source Code
 .\src\pla_timeUpdate.v=Verilog Source Code
@@ -129,3 +135,5 @@ extension11=asdb;awc;asdbc;asdbe
 .\src\secondForm.awc=Accelerated Waveform Configuration
 .\src\all_counterForm.asdb=Accelerated Waveform File
 .\src\all_counterForm.awc=Accelerated Waveform Configuration
+.\src\controlLogicForm.asdb=Accelerated Waveform File
+.\src\controlLogicForm.awc=Accelerated Waveform Configuration

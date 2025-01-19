@@ -21,3 +21,5 @@ i<>.\src\hour2.v
 i<>.\src\date.v
 i<>.\src\day.v
 i<>.\src\year.v
+i<>.\src\pla_status.v
+i<>.\src\alu_control_signal.v
