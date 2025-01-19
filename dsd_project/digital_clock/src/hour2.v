@@ -13,7 +13,6 @@ assign restart = {5{hour[4] && (~hour[3]) && hour[2] && hour[1] && hour[0]}};	 /
 assign en = {5{enable}};
 assign ld = {5{load}};
 
-
 initial
 	begin
 		hour = 5'h0;

@@ -9,7 +9,7 @@ module minute(
 	);
 
 wire [5:0] restart, en, ld;	
-assign restart = {6{min[5] && min[4] && min[3] && (~min[2]) && min[1] && min[0]}};	
+assign restart = {6{min[5] && min[4] && min[3] && (~min[2]) && min[1] && min[0]}};	 //59
 assign en = {6{enable}};
 assign ld = {6{load}};
 

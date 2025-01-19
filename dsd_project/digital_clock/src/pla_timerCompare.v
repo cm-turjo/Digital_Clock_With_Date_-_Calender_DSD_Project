@@ -16,7 +16,8 @@ module pla_timerCompare (
 	output reg Lr,
 	output reg Er,
 	output reg Cc,
-	output reg M
+	output reg M,
+	output reg Cin
 	);
 	
 	
@@ -56,18 +57,18 @@ always @ (posedge clk)
 		
 		gout[0]= ( (~gin[3]) && (~gin[2]) && gin[1] && (~gin[0]) ) || ( (~gin[3]) && gin[2] && (~gin[1]) && (~gin[0]) ) || ( (~gin[3]) && gin[2] && gin[1] && (~gin[0]) && Az) || ( (~gin[3]) && gin[2] && gin[1] && (~gin[0]) && (~Az)) || ( gin[3] && (~gin[2]) && (~gin[1]) && (~gin[0]) && c7) || ( gin[3] && (~gin[2]) && (~gin[1]) && gin[0] ); //2+4+6Az+6Az'+8c7+9
 		
-		s[1] <= ( (~gin[3]) && gin[2] && (~gin[1]) && gin[0] );
+		s[1] <= ( (~gin[3]) && gin[2] && (~gin[1]) && gin[0] );	 //5
 		s[0] <= 0; 
 		
-		Kc <= ((~gin[3]) && (~gin[2]) && gin[1] && (~gin[0]));
-		La <= ( (~gin[3]) && (~gin[2]) && gin[1] && gin[0] );
-		Lb <= ( (~gin[3]) && gin[2] && (~gin[1]) && (~gin[0]) );
+		Kc <= ((~gin[3]) && (~gin[2]) && gin[1] && (~gin[0]));	//2
+		La <= ( (~gin[3]) && (~gin[2]) && gin[1] && gin[0] );	//3
+		Lb <= ( (~gin[3]) && gin[2] && (~gin[1]) && (~gin[0]) );  //4
 		Ea <= 0;
 		Lr <= 0;
-		Er <= ((~gin[3]) && (~gin[2]) && gin[1] && gin[0] )|| ( (~gin[3]) && gin[2] && (~gin[1]) && (~gin[0]) );
-		Cc <=  ((~gin[3]) && (~gin[2]) && gin[1] && (~gin[0]));
-		M <= ( gin[3] && (~gin[2]) && (~gin[1]) && gin[0] );
-				
+		Er <= ((~gin[3]) && (~gin[2]) && gin[1] && gin[0] )|| ( (~gin[3]) && gin[2] && (~gin[1]) && (~gin[0]) ); //3+4
+		Cc <=  ((~gin[3]) && (~gin[2]) && gin[1] && (~gin[0]));	 //2+8
+		M <= ( gin[3] && (~gin[2]) && (~gin[1]) && gin[0] );   //11
+		Cin <= 	( (~gin[3]) && gin[2] && (~gin[1]) && gin[0] );	 //5
 		
 		T <= gin;
 	end

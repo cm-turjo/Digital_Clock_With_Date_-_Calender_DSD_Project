@@ -12,7 +12,7 @@ wire [3:0] restart, en, ld;
 assign restart = {4{month[3] && month[2] && (~month[1]) && (~month[0])}};	 //12
 assign en = {4{enable}};
 assign ld = {4{load}};
-
+assign preset = 4'b0001;
 
 initial
 	begin
@@ -21,7 +21,7 @@ initial
 
 always @ (posedge clk)
 	begin		
-		month <= ((~restart) & (month + 1) & (~ld)) | (ld & data);		
+		month <= ((~restart) & (month + 1) & (~ld)) | (ld & data) | (restart & preset);		
 		end
 
 assign databus = en & month;

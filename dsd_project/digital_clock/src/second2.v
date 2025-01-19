@@ -9,7 +9,7 @@ module second2(
 	);
 
 wire [5:0] restart, en, ld;	
-assign restart = {6{sec[5] && sec[4] && sec[3] && (~sec[2]) && sec[1] && sec[0]}};	
+assign restart = {6{sec[5] && sec[4] && sec[3] && (~sec[2]) && sec[1] && sec[0]}};	//59
 assign en = {6{enable}};
 assign ld = {6{load}};
 

@@ -12,7 +12,7 @@ wire [4:0] restart, en, ld, preset;
 assign restart = {5{date[4] && date[3] && date[2] && date[1] && (~date[0])}};	 //30
 assign en = {5{enable}};
 assign ld = {5{load}}; 
-assign preset = {5{(~date[4]) && (~date[3]) && (~date[2]) && (~date[1]) && (~date[0])}};
+assign preset = 5'b00001;
 
 
 initial
@@ -22,7 +22,7 @@ initial
 
 always @ (posedge clk)
 	begin		
-		date <= ((~restart) & (date + 1) & (~ld)) | (ld & data);		
+		date <= ((~restart) & (date + 1) & (~ld)) | (ld & data) | (restart & preset);		
 		end
 
 assign databus = en & date;

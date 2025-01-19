@@ -13,7 +13,6 @@
 .\src\alu.v
 .\src\second1.v
 .\src\minute.v
-.\src\jk_flipflop.v
 .\src\counter.v
 .\src\hour1.v
 .\src\second2.v
@@ -23,3 +22,5 @@
 .\src\date.v
 .\src\day.v
 .\src\year.v
+.\src\zero_sign.v
+.\src\carry_input_clear.v

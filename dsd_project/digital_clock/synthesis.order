@@ -11,7 +11,6 @@ i<>.\src\controlB.v
 i<>.\src\alu.v
 i<>.\src\second.v
 i<>.\src\minute.v
-i<>.\src\jk_flipflop.v
 i<>.\src\counter.v
 i<>.\src\hour.v
 i<>.\src\second2.v
@@ -23,3 +22,5 @@ i<>.\src\day.v
 i<>.\src\year.v
 i<>.\src\pla_status.v
 i<>.\src\alu_control_signal.v
+i<>.\src\zero_sign.v
+i<>.\src\carry_input_clear.v

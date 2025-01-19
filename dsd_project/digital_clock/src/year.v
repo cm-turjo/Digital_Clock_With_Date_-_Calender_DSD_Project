@@ -13,15 +13,16 @@ assign restart = {6{ year[5] && year[4] && year[3] && year[2] && (~year[1]) && (
 assign en = {6{enable}};
 assign ld = {6{load}};
 
+assign preset = 6'h1;
 
 initial
 	begin
-		year = 6'h0;
+		year = 6'h1;
 		end
 
 always @ (posedge clk)
 	begin		
-		year <= ((~restart) & (year + 1) & (~ld)) | (ld & data);		
+		year <= ((~restart) & (year + 1) & (~ld)) | (ld & data) | (restart & preset);		
 		end
 
 assign databus = en & year;
