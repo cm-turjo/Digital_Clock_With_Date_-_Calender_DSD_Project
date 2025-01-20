@@ -24,8 +24,9 @@ initial
 		end
 
 always @ (posedge clk)
-	begin		
-		day <= ((~restart) & (day + 1) & {3{hourCount}} & (~ld)) | (ld & data) | (restart & preset) | (day & {3{~hourCount}});		
+	begin
+		day <= ((~restart) & (day + 1) & (~ld)) | (ld & data) | (restart & preset);
+		//day <= ((~restart) & (day + 1) & {3{hourCount}} & (~ld)) | (ld & data) | (restart & preset) | (day & {3{~hourCount}});		
 		end
 
 assign databus = en & day;

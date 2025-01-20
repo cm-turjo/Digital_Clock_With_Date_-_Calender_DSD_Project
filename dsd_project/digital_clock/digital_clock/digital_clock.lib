@@ -1,4 +1,4 @@
-timestamp=1737340853199
+timestamp=1737349361061
 
 [~A]
 D:/Academic/4-2/DSD Mahbub/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*294336*294997
@@ -31,22 +31,22 @@ E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerCompare.v=0*3954*4725
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerSet.v=0*2207*2974
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*325169*325806
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu_control_signal.v=0*440206*440810
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*610755*611847
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*636362*637583
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/carry_input_clear.v=0*512816*513339
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlB.v=0*504712*505210
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/counter.v=0*332584*333321
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/date.v=0*557457*558191
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/day.v=0*591417*592198
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/date.v=0*624619*625385
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/day.v=0*620735*621500
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/demux_1X8.v=0*316417*316964
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/full_adder.v=0*319838*320402
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/half_adder.v=0*318129*318645
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hour1.v=0*587295*588062
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hour1.v=0*614971*615722
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hour2.v=0*563224*563927
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hourgpt.v=0*340299*341036
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/jk_flipflop.v=0*330840*331373
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minute.v=0*608902*609654
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minute.v=0*616900*617652
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minute2.v=0*549806*550527
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/month.v=0*559379*560114
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/month.v=0*630472*631239
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/monthgpt.v=0*342245*342983
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/mux_8X1.v=0*314819*315236
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/parallel_adder.v=0*321628*322276
@@ -55,9 +55,9 @@ E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/di
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timeUpdate.v=0*312858*313698
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerCompare.v=0*506494*507496
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v=0*308508*309362
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second1.v=0*581305*582042
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second1.v=0*618825*619562
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second2.v=0*551722*552443
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/year.v=0*561301*562035
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/year.v=0*634420*635202
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/zero_sign.v=0*511095*511578
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*67446*68055
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*226026*226802
@@ -76,19 +76,19 @@ E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_pla_timerCompare.v_pla_timeUpdate.v_breadboard.v_mux_8X1.v_demux_1X8.v_half_adder.v_full_adder.v_parallel_adder.v_controlA.v_controlB.v_controlC.v_alu.v=0*38372*40616
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second.v=0*172318*173010
 LastVerilogToplevel=breadboard
-ModifyID=318
+ModifyID=331
 Version=74
 
 [~MFT]
-0=6|0digital_clock.mgf|611847|341108
-1=4|1digital_clock.mgf|945407|896623
-3=8|3digital_clock.mgf|616008|571867
+0=6|0digital_clock.mgf|637583|359251
+1=4|1digital_clock.mgf|983092|933857
+3=8|3digital_clock.mgf|645451|601064
 
 [$root]
-A/$root=22|||1*944969
-BinW64/$root=3*614748
-SLP=3*614863
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921695d72fa786aa7796a90baa424107c3cf
+A/$root=22|||1*982654
+BinW64/$root=3*644191
+SLP=3*644306
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216b84f0b19870ef56c3426bb5df89ef1e1
 
 [alu]
 A/alu=22|../src/alu.v|3|1*692237
@@ -105,11 +105,11 @@ SLP=3*437954
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f8577010b1bf17b63b558912fa63cfdbb3601903b2f5336b16b11eab99a9f0965159c29eb09e53de30fd4da670c135b8
 
 [breadboard]
-A/breadboard=22|../src/breadboard.v|4|1*945407
-BinW64/breadboard=3*614931
+A/breadboard=22|../src/breadboard.v|4|1*983092
+BinW64/breadboard=3*644374
 R=../src/breadboard.v|4
-SLP=3*616008
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a5a2be20ebf58bca2ea6fec56fe2bfd66
+SLP=3*645451
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a459c940f5eec418649d73692b76e422e
 
 [carry_input_clear]
 A/carry_input_clear=22|../src/carry_input_clear.v|1|1*772333
@@ -146,18 +146,18 @@ SLP=3*457732
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ec8a9ceecd40c97da6d5687ce01e262f26527262ddaa47cb266f3a3c4d9b973a99e3ebeb6d07c6ea1a79e6c6e70f3a6d
 
 [date]
-A/date=22|../src/date.v|1|1*840855
-BinW64/date=3*559328
+A/date=22|../src/date.v|1|1*966752
+BinW64/date=3*630452
 R=../src/date.v|1
-SLP=3*560690
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|94321f55734cdd3c170af38a20a88e89380aaee6cf47ffcb4aa2f8cd639b37fd
+SLP=3*631906
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|94321f55734cdd3c170af38a20a88e8910aa769a38e4559c34833a022ed8714a
 
 [day]
-A/day=22|../src/day.v|1|1*898894
-BinW64/day=3*596105
+A/day=22|../src/day.v|1|1*961347
+BinW64/day=3*626094
 R=../src/day.v|1
-SLP=3*597667
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4474f811ac5e777755754dc5e681181ced1837481acb22bd8ce83c3ea2354a09
+SLP=3*627502
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4474f811ac5e777755754dc5e681181c27707b96f6b383b88871e983b0ef645b
 
 [demux_1X8]
 A/demux_1X8=22|../src/demux_1X8.v|1|1*685906
@@ -188,11 +188,11 @@ SLP=3*315621
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|594d462fbef55c99f2bf8e031ed4a91df78e1e27ffab14a6e462a1a365129b35
 
 [hour1]
-A/hour1=22|../src/hour1.v|1|1*890585
-BinW64/hour1=3*591665
+A/hour1=22|../src/hour1.v|1|1*953727
+BinW64/hour1=3*619369
 R=../src/hour1.v|1
-SLP=3*593188
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|eaba0083d64c85c9ec63e4b85ea6637b727e2a7903ea82d56c899a28607fe556
+SLP=3*620734
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|eaba0083d64c85c9ec63e4b85ea6637b572a2a3bb345e9fc8946941c5d93277f
 
 [hour2]
 A/hour2=22|../src/hour2.v|1|1*848704
@@ -209,11 +209,11 @@ SLP=3*456669
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|07db4041c08ab4b76c2cc19a80772531df0f07b3e17d0e50b1e38550e4fb7c14dd8ff60da761a2754a2bc36ece34c3db
 
 [minute]
-A/minute=22|../src/minute.v|1|1*942840
-BinW64/minute=3*612674
+A/minute=22|../src/minute.v|1|1*956284
+BinW64/minute=3*621582
 R=../src/minute.v|1
-SLP=3*614056
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|309fd796909d703b02aa96c0f9e39fe1a5085a127cd0e00f49f3dc8958b5b06c
+SLP=3*622964
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|309fd796909d703b02aa96c0f9e39fe107917a509f6480c483df393daec106df
 
 [minute2]
 A/minute2=22|../src/minute2.v|1|1*830961
@@ -223,11 +223,11 @@ SLP=3*552525
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|034fe41a178ee2d4795446a0b2af654f26527262ddaa47cb266f3a3c4d9b973a240ea139f5946b5695cf0fb62a6ed02f
 
 [month]
-A/month=22|../src/month.v|1|1*843467
-BinW64/month=3*561452
+A/month=22|../src/month.v|1|1*974903
+BinW64/month=3*637236
 R=../src/month.v|1
-SLP=3*562815
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0adb6b163a7ca19eefa04bbf95ce35e3f7ffc7ee076cc450dc7a9954930b1363
+SLP=3*638695
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0adb6b163a7ca19eefa04bbf95ce35e39014d9ab2496a8df1073bbb671fdfe6d
 
 [mux_8X1]
 A/mux_8X1=22|../src/mux_8X1.v|1|1*685401
@@ -279,11 +279,11 @@ SLP=3*171880
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5a60c45940e9c7c9356457af3f1082ba1cd8bf103545e0a7fa8191efb0b7d29b
 
 [second1]
-A/second1=22|../src/second1.v|1|1*880265
-BinW64/second1=3*584923
+A/second1=22|../src/second1.v|1|1*958851
+BinW64/second1=3*623839
 R=../src/second1.v|1
-SLP=3*586304
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d1dd917204a5a2342815d3caeb78bf0326527262ddaa47cb266f3a3c4d9b973a265958fa5c1ff10e68080dc560212d04
+SLP=3*625220
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d1dd917204a5a2342815d3caeb78bf0326527262ddaa47cb266f3a3c4d9b973ae457e4b35386ca23412d891108aa3de9
 
 [second2]
 A/second2=22|../src/second2.v|1|1*833432
@@ -293,11 +293,11 @@ SLP=3*554544
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d4bedbb0bde1d210622df06e3ee6077e26527262ddaa47cb266f3a3c4d9b973a5f777cfed0394760fcd9b98398dbb77a
 
 [year]
-A/year=22|../src/year.v|1|1*846083
-BinW64/year=3*563570
+A/year=22|../src/year.v|1|1*980382
+BinW64/year=3*641967
 R=../src/year.v|1
-SLP=3*564949
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|04c2c21d67a98c02a0bf70bef0f8be953e9204fe81c1fe2225dd4e323d92ee34
+SLP=3*643455
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|04c2c21d67a98c02a0bf70bef0f8be95e3acf0e2f8c24d75c86052dcab45c516
 
 [zero_sign]
 A/zero_sign=22|../src/zero_sign.v|1|1*770940
@@ -307,27 +307,27 @@ SLP=3*509511
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3f11c280e478fbd2c3aa49adf53a606f1cf4a238d7c8d9bd76caddd6e74c9e7998dbd8c57aff70c7ee2e9f0b3be0edc2
 
 [~U]
-$root=12|0*610271|
+$root=12|0*635817|
 alu=12|0*468788||0x10
 alu_control_signal=12|0*466194|
-breadboard=12|0*610565||0x10
+breadboard=12|0*636127||0x10
 carry_input_clear=12|0*512588||0x10
 controlA=12|0*37623|
 controlB=12|0*504511|
 controlC=12|0*37429|
 counter=12|0*469787||0x10
-date=12|0*557215||0x10
-day=12|0*591156||0x10
+date=12|0*624359||0x10
+day=12|0*620474|
 demux_1X8=12|0*467661||0x10
 full_adder=12|0*468085|
 half_adder=12|0*467882|
 hour=12|0*340052||0x10
-hour1=12|0*587029||0x10
+hour1=12|0*614705|
 hour2=12|0*562976||0x10
 jk_flipflop=12|0*469569|
-minute=12|0*608634|
+minute=12|0*616632|
 minute2=12|0*549555||0x10
-month=12|0*559132||0x10
+month=12|0*630208||0x10
 mux_8X1=12|0*467507||0x10
 parallel_adder=12|0*468315|
 pla_status=12|0*495527|
@@ -335,7 +335,7 @@ pla_timeUpdate=12|0*467018||0x10
 pla_timerCompare=12|0*506187|
 pla_timerSet=12|0*466440|
 second=12|0*172068|
-second1=12|0*581043|
+second1=12|0*618563||0x10
 second2=12|0*551471||0x10
-year=12|0*561056||0x10
+year=12|0*634154||0x10
 zero_sign=12|0*510897||0x10

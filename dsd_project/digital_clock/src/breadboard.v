@@ -14,17 +14,17 @@ reg load,clear,enable,secCount,minCount,hourCount,dayCount,dateCount,monthCount,
 																				
 wire [5:0] databus;
 
-//second1 s1(clk, load, clear, enable, databus, sec1, databus, secCount);
-//second2 s2(clk, load, clear, enable, databus, sec2, databus);
+second1 s1(clk, load, clear, enable, databus, sec1, databus, secCount);
+second2 s2(clk, load, clear, enable, databus, sec2, databus);
 minute m1(clk, load, clear, enable, databus, secCount, min1, databus, minCount);	
-//minute2 m2(clk, load, clear, enable, databus, min2, databus);
+minute2 m2(clk, load, clear, enable, databus, min2, databus);
 hour1 h1(clk, load, clear, enable, databus, minCount, hour1, databus, hourCount);
-//hour2 h2(clk, load, clear, enable, databus, hour2, databus);
+hour2 h2(clk, load, clear, enable, databus, hour2, databus);
 
 day dy1(clk, load, clear, enable, databus, hourCount, day, databus, dayCount);
-//date d1(clk, load, clear, enable, databus, dayCount, date, databus, dateCount);
-//month mn1(clk, load, clear,enable, databus, dateCount, month, databus, monthCount);
-//year y1(clk, load, clear, enable, databus, monthCount, year, databus, yearCount);
+date d1(clk, load, clear, enable, databus, dayCount, date, databus, dateCount);
+month mn1(clk, load, clear,enable, databus, dateCount, month, databus, monthCount);
+year y1(clk, load, clear, enable, databus, monthCount, year, databus, yearCount);
 
 
 

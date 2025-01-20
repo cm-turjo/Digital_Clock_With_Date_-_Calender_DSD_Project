@@ -4,8 +4,10 @@ module date(
 	input clear,
 	input enable,
 	input [4:0] data,// 30 Days makes 1 month
+	input dayCount,
 	output reg [4:0] date,
-	output reg [4:0] databus	//It is acting like dataout
+	output reg [4:0] databus,	//It is acting like dataout
+	output reg dateCount
 	);
 
 wire [4:0] restart, en, ld, preset;	
@@ -14,6 +16,7 @@ assign en = {5{enable}};
 assign ld = {5{load}}; 
 assign preset = 5'b00001;
 
+assign dateCount = date[4] && date[3] && date[2] && date[1] && (~date[0]);
 
 initial
 	begin
