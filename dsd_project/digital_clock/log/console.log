@@ -1,0 +1,209 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "minute" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "hour1" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "day" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.1 [s].
+# Waveform file 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minuteTohourForm.awc' connected to 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minuteTohourForm.asdb'.
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/hour1.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/hour1.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/minute.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/second1.v
+# Unit top modules: second1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/day.v
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/date.v
+# Error: VCP2000 date.v : (10, 11): Syntax error. Unexpected token: output[_OUTPUT].
+# Error: VCP2000 date.v : (14, 7): Syntax error. Unexpected token: assign[_ASSIGN].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/date.v
+# Unit top modules: date.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/date.v
+# Unit top modules: date.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/month.v
+# Info: VCP2876 month.v : (17, 16): Implicit net declaration, symbol preset has not been declared in module month.
+# Unit top modules: month.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/month.v
+# Info: VCP2876 month.v : (17, 16): Implicit net declaration, symbol preset has not been declared in module month.
+# Error: VCP2000 month.v : (19, 71): Syntax error. Unexpected token: ;.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/month.v
+# Info: VCP2876 month.v : (17, 16): Implicit net declaration, symbol preset has not been declared in module month.
+# Unit top modules: month.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/month.v
+# Info: VCP2876 month.v : (17, 16): Implicit net declaration, symbol preset has not been declared in module month.
+# Unit top modules: month.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/year.v
+# Info: VCP2876 year.v : (18, 16): Implicit net declaration, symbol preset has not been declared in module year.
+# Unit top modules: year.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/year.v
+# Info: VCP2876 year.v : (18, 16): Implicit net declaration, symbol preset has not been declared in module year.
+# Unit top modules: year.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/alu.v
+# Unit top modules: alu.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/k_counter.v
+# Unit top modules: k_counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/k_counter.v
+# Error: VCP2000 k_counter.v : (6, 29): Syntax error. Unexpected token: ;.
+# Error: VCP2020 k_counter.v : (15, 8): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 k_counter.v : (15, 8): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/k_counter.v
+# Unit top modules: k_counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/k_counter.v
+# Unit top modules: k_counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlK.v
+# Error: VCP2545 controlK.v : (5, 23): Duplicate port identifier: k.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlK.v
+# Unit top modules: controlK.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Unit top modules: mux_8X1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2020 mux_8X1.v : (23, 16): case/x/z...endcase pair(s) mismatch detected. 1 <endcase> tokens are missing.
+# Error: VCP2020 mux_8X1.v : (23, 16): module/macromodule...endmodule pair(s) mismatch detected. 1 <endmodule> tokens are missing.
+# Error: VCP2000 mux_8X1.v : (23, 16): Syntax error. Unexpected token: end[_END].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP5103 mux_8X1.v : (21, 20): Undeclared identifier: k.
+# Error: VCP2858 mux_8X1.v : (22, 31): A is not a valid left-hand side of a procedural assignment.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2858 mux_8X1.v : (22, 31): A is not a valid left-hand side of a procedural assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2858 mux_8X1.v : (22, 33): A is not a valid left-hand side of a procedural assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2858 mux_8X1.v : (22, 34): A is not a valid left-hand side of a procedural assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2858 mux_8X1.v : (22, 34): A is not a valid left-hand side of a procedural assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2858 mux_8X1.v : (22, 33): A is not a valid left-hand side of a procedural assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Unit top modules: mux_8X1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Unit top modules: mux_8X1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/alu_control_signal.v
+# Unit top modules: alu_control_signal.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/pla_status.v $dsn/src/alu_control_signal.v $dsn/src/pla_timerSet.v $dsn/src/pla_timerCompare.v $dsn/src/pla_timeUpdate.v $dsn/src/breadboard.v $dsn/src/mux_8X1.v $dsn/src/demux_1X8.v $dsn/src/half_adder.v $dsn/src/full_adder.v $dsn/src/parallel_adder.v $dsn/src/controlB.v $dsn/src/alu.v $dsn/src/second1.v $dsn/src/minute.v $dsn/src/counter.v $dsn/src/hour1.v $dsn/src/second2.v $dsn/src/minute2.v $dsn/src/hour2.v $dsn/src/month.v $dsn/src/date.v $dsn/src/day.v $dsn/src/year.v $dsn/src/zero_sign.v $dsn/src/carry_input_clear.v $dsn/src/k_counter.v $dsn/src/controlK.v
+# Info: VCP2876 month.v : (17, 16): Implicit net declaration, symbol preset has not been declared in module month.
+# Info: VCP2876 year.v : (18, 16): Implicit net declaration, symbol preset has not been declared in module year.
+# Unit top modules: pla_status alu_control_signal pla_timerSet pla_timerCompare pla_timeUpdate breadboard mux_8X1 demux_1X8 alu second1 minute counter hour1 second2 minute2 hour2 month date day year zero_sign carry_input_clear.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Unit top modules: mux_8X1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlEa.v
+# Unit top modules: controlEa.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlEa.v
+# Unit top modules: controlEa.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlSignals.v
+# Unit top modules: controlSignals.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlSignals.v
+# Error: VCP5112 controlSignals.v : (19, 29): eR is not a vector or array.
+# Error: VCP5112 controlSignals.v : (19, 48): eR is not a vector or array.
+# Error: VCP5112 controlSignals.v : (19, 67): eR is not a vector or array.
+# Error: VCP5112 controlSignals.v : (20, 29): lA is not a vector or array.
+# Error: VCP5112 controlSignals.v : (20, 48): lA is not a vector or array.
+# Error: VCP5112 controlSignals.v : (20, 67): lA is not a vector or array.
+# Error: VCP5112 controlSignals.v : (21, 29): lB is not a vector or array.
+# Error: VCP5112 controlSignals.v : (21, 48): lB is not a vector or array.
+# Error: VCP5112 controlSignals.v : (21, 67): lB is not a vector or array.
+# Error: VCP5112 controlSignals.v : (22, 29): lR is not a vector or array.
+# Error: VCP5112 controlSignals.v : (22, 48): lR is not a vector or array.
+# Error: VCP5112 controlSignals.v : (22, 67): lR is not a vector or array.
+# Compile failure 12 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/controlSignals.v
+# Unit top modules: controlSignals.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/breadboard.v
+# Unit top modules: breadboard.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Error: VCP2000 mux_8X1.v : (22, 43): Syntax error. Unexpected token: ;.
+# Compile failure 1 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k17 -work digital_clock $dsn/src/mux_8X1.v
+# Unit top modules: mux_8X1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# Waveform file 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlLogicForm.awc' connected to 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlLogicForm.asdb'.
+# Waveform file 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerSetForm.awc' connected to 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerSetForm.asdb'.
+# Waveform file 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerCompare.awc' connected to 'E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/plaTimerCompare.asdb'.

@@ -24,3 +24,6 @@ i<>.\src\pla_status.v
 i<>.\src\alu_control_signal.v
 i<>.\src\zero_sign.v
 i<>.\src\carry_input_clear.v
+i<>.\src\k_counter.v
+i<>.\src\controlK.v
+i<>.\src\controlEa.v

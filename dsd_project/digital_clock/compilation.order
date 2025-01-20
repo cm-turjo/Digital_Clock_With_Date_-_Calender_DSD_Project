@@ -24,3 +24,6 @@
 .\src\year.v
 .\src\zero_sign.v
 .\src\carry_input_clear.v
+.\src\k_counter.v
+.\src\controlK.v
+.\src\controlSignals.v

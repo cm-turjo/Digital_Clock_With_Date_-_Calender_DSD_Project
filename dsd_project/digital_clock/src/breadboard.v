@@ -15,16 +15,18 @@ reg load,clear,enable,secCount,minCount,hourCount,dayCount,dateCount,monthCount,
 wire [5:0] databus;
 
 second1 s1(clk, load, clear, enable, databus, sec1, databus, secCount);
-second2 s2(clk, load, clear, enable, databus, sec2, databus);
+//second2 s2(clk, load, clear, enable, databus, sec2, databus);
 minute m1(clk, load, clear, enable, databus, secCount, min1, databus, minCount);	
-minute2 m2(clk, load, clear, enable, databus, min2, databus);
+//minute2 m2(clk, load, clear, enable, databus, min2, databus);
 hour1 h1(clk, load, clear, enable, databus, minCount, hour1, databus, hourCount);
-hour2 h2(clk, load, clear, enable, databus, hour2, databus);
+//hour2 h2(clk, load, clear, enable, databus, hour2, databus);
 
-day dy1(clk, load, clear, enable, databus, hourCount, day, databus, dayCount);
-date d1(clk, load, clear, enable, databus, dayCount, date, databus, dateCount);
-month mn1(clk, load, clear,enable, databus, dateCount, month, databus, monthCount);
-year y1(clk, load, clear, enable, databus, monthCount, year, databus, yearCount);
+//day dy1(clk, load, clear, enable, databus, hourCount, day, databus, dayCount);
+//date d1(clk, load, clear, enable, databus, dayCount, date, databus, dateCount);
+//month mn1(clk, load, clear,enable, databus, dateCount, month, databus, monthCount);
+//year y1(clk, load, clear, enable, databus, monthCount, year, databus, yearCount);
+
+
 
 
 
@@ -41,19 +43,30 @@ reg Cc, M, t, k7, u, Ts, c7, Az, Cin;
 
 //Timer set module
 
-//pla_timerSet pla1 (gin[0],t,k7,clk,gout[0],T[0],s[0],Kc[0],La[0],Lb[0],Ea[0],Lr[0],Er[0]);
+pla_timerSet pla1 (gin[0],t,k7,clk,gout[0],T[0],s[0],Kc[0],La[0],Lb[0],Ea[0],Lr[0],Er[0]);
 	
 
 //Time update module
 	
-//pla_timeUpdate pla2 (gin[1],u,clk,gout[1],T[1],s[1],Kc[1],La[1],Lb[1],Ea[1],Lr[1],Er[1]);
+pla_timeUpdate pla2 (gin[1],u,clk,gout[1],T[1],s[1],Kc[1],La[1],Lb[1],Ea[1],Lr[1],Er[1]);
 
 
 //Timer compare module
 	
-//pla_timerCompare pla3 (gin[2],Ts,c7,Az,clk,gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M,Cin);
+pla_timerCompare pla3 (gin[2],Ts,c7,Az,clk,gout[2],T[2],s[2],Kc[2],La[2],Lb[2],Ea[2],Lr[2],Er[2],Cc,M,Cin);
 
 
+
+//k counter
+reg [2:0] k[2:0];
+reg [2:0] regk;
+k_counter k1 ( clk, Kc, pla, k7, k); 
+controlK ck1 (clk, pla, k, regk);
+
+//control signals
+
+reg eA,eR,lA,lB,lR;
+controlSignals cs1 (clk, pla, Ea, Er, La, Lb, Lr, eA, eR, lA, lB, lR vvvvvvvvvvv);
 
 //pla enable status
 reg [2:0]pla;

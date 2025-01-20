@@ -1,4 +1,4 @@
-timestamp=1737349361061
+timestamp=1737354621159
 
 [~A]
 D:/Academic/4-2/DSD Mahbub/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*294336*294997
@@ -29,11 +29,14 @@ E:/LAB/DSD/dsd_project/digital_clock/src/mux_8X1.v=0*11863*12193
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timeUpdate.v=0*5447*5768
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerCompare.v=0*3954*4725
 E:/LAB/DSD/dsd_project/digital_clock/src/pla_timerSet.v=0*2207*2974
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*325169*325806
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu_control_signal.v=0*440206*440810
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*636362*637583
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu.v=0*640787*641424
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/alu_control_signal.v=0*661411*662015
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/breadboard.v=0*689534*690675
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/carry_input_clear.v=0*512816*513339
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlB.v=0*504712*505210
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlEa.v=0*681479*682026
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlK.v=0*652062*652624
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/controlSignals.v=0*685269*685933
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/counter.v=0*332584*333321
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/date.v=0*624619*625385
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/day.v=0*620735*621500
@@ -44,13 +47,15 @@ E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/di
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hour2.v=0*563224*563927
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/hourgpt.v=0*340299*341036
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/jk_flipflop.v=0*330840*331373
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/k_counter.v=0*646014*646721
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minute.v=0*616900*617652
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/minute2.v=0*549806*550527
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/month.v=0*630472*631239
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/monthgpt.v=0*342245*342983
-E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/mux_8X1.v=0*314819*315236
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/mux_8X1.v=0*692000*692705
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/parallel_adder.v=0*321628*322276
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_status.v=0*495752*496316
+E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_status.v_alu_control_signal.v_pla_timerSet.v_pla_timerCompare.v_pla_timeUpdate.v_breadboard.v_mux_8X1.v_demux_1X8.v_half_adder.v_full_adder.v_parallel_adder.v_controlB.v_alu.v_second1.v_minute.v_counter.v_hour1.v_second2.v_minute2.v_hour2.v_month.v_date.v_day.v_year.v_zero_sign.v_carry_input_clear.v_k_counter.v_controlK.v=0*670020*675844
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_status.v_alu_control_signal.v_pla_timerSet.v_pla_timerCompare.v_pla_timeUpdate.v_breadboard.v_mux_8X1.v_demux_1X8.v_half_adder.v_full_adder.v_parallel_adder.v_controlB.v_alu.v_second1.v_minute.v_jk_flipflop.v_counter.v_hour1.v_second2.v_minute2.v_hour2.v_month.v_date.v_day.v_year.v=0*472008*476703
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timeUpdate.v=0*312858*313698
 E:/LAB/DSD_Project/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerCompare.v=0*506494*507496
@@ -75,48 +80,48 @@ E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_breadboard.v=0*120915*122139
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/pla_timerSet.v_pla_timerCompare.v_pla_timeUpdate.v_breadboard.v_mux_8X1.v_demux_1X8.v_half_adder.v_full_adder.v_parallel_adder.v_controlA.v_controlB.v_controlC.v_alu.v=0*38372*40616
 E:/LAB/Digital_Clock_With_Date_-_Calender_DSD_Project/dsd_project/digital_clock/src/second.v=0*172318*173010
-LastVerilogToplevel=breadboard
-ModifyID=331
+LastVerilogToplevel=mux_8X1
+ModifyID=353
 Version=74
 
 [~MFT]
-0=6|0digital_clock.mgf|637583|359251
-1=4|1digital_clock.mgf|983092|933857
-3=8|3digital_clock.mgf|645451|601064
+0=6|0digital_clock.mgf|692705|382844
+1=4|1digital_clock.mgf|1108125|1047424
+3=8|3digital_clock.mgf|721461|669851
 
 [$root]
-A/$root=22|||1*982654
-BinW64/$root=3*644191
-SLP=3*644306
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216b84f0b19870ef56c3426bb5df89ef1e1
+A/$root=22|||1*1107543
+BinW64/$root=3*720383
+SLP=3*720498
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921654377ff7f8ef8337dba51e59c4f94c29
 
 [alu]
-A/alu=22|../src/alu.v|3|1*692237
-BinW64/alu=3*452004
+A/alu=22|../src/alu.v|3|1*1056169
+BinW64/alu=3*686137
 R=../src/alu.v|3
-SLP=3*452117
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fdc9c85601beb4171a6a25c637e2168e03133835fa7d48fca2c1d15d1ff02ee5
+SLP=3*686250
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fdc9c85601beb4171a6a25c637e2168eba102f2268eb5d84ad893341309e00cd
 
 [alu_control_signal]
-A/alu_control_signal=22|../src/alu_control_signal.v|1|1*674722
-BinW64/alu_control_signal=3*437191
+A/alu_control_signal=22|../src/alu_control_signal.v|1|1*1032279
+BinW64/alu_control_signal=3*667047
 R=../src/alu_control_signal.v|1
-SLP=3*437954
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f8577010b1bf17b63b558912fa63cfdbb3601903b2f5336b16b11eab99a9f0965159c29eb09e53de30fd4da670c135b8
+SLP=3*667810
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|f8577010b1bf17b63b558912fa63cfdbb3601903b2f5336b16b11eab99a9f096fd94bfd4dd4a9013a5ea1c84d05c9307
 
 [breadboard]
-A/breadboard=22|../src/breadboard.v|4|1*983092
-BinW64/breadboard=3*644374
+A/breadboard=22|../src/breadboard.v|4|1*1101834
+BinW64/breadboard=3*718537
 R=../src/breadboard.v|4
-SLP=3*645451
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a459c940f5eec418649d73692b76e422e
+SLP=3*719614
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8bba35ebb1d6b345a990b9e2e604cd61e7cb43217a5ab22c7aa273b9580ec14a1e4ed719324da572de63272d0227e8f3
 
 [carry_input_clear]
-A/carry_input_clear=22|../src/carry_input_clear.v|1|1*772333
-BinW64/carry_input_clear=3*509925
+A/carry_input_clear=22|../src/carry_input_clear.v|1|1*1082921
+BinW64/carry_input_clear=3*709105
 R=../src/carry_input_clear.v|1
-SLP=3*510461
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d25239b390881820ab7dd08b6528b83ddf237ed74fe52cdc432cf96bcda76c28c476cf1a9271ecc89902ef5e8d4c4312
+SLP=3*709641
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d25239b390881820ab7dd08b6528b83ddf237ed74fe52cdc432cf96bcda76c284e3497c03a38bf4ba9adfa87ce1b2d14
 
 [controlA]
 BinW64/controlA=3*35607
@@ -125,11 +130,11 @@ SLP=3*36095
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7a0725b5e0dffd9c4e29daa61427dc3c9dc5b99f766d89beef52f8a7e86d62942b593c299f266164f4224292982820e7
 
 [controlB]
-A/controlB=22|../src/controlB.v|3|1*762374
-BinW64/controlB=3*501471
+A/controlB=22|../src/controlB.v|3|1*1055227
+BinW64/controlB=3*685518
 R=../src/controlB.v|3
-SLP=3*501910
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0602ae2deee3f310c212c7ac2b73163e40729600395783a74894a17d22387f3cba4e87e3886e924278ed488e425659f0
+SLP=3*685957
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0602ae2deee3f310c212c7ac2b73163e40729600395783a74894a17d22387f3c616ce704d75a204066caa4a817b51ef6
 
 [controlC]
 A/controlC=22|../src/controlC.v|3|1*39295
@@ -138,47 +143,68 @@ R=../src/controlC.v|3
 SLP=3*35448
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5e09f199f49961b58f46f1177516e6c011ddc5b720b975479b8edf58c0703db82b593c299f266164f4224292982820e7
 
+[controlEa]
+A/controlEa=22|../src/controlEa.v|1|1*1088965
+BinW64/controlEa=3*712535
+R=../src/controlEa.v|1
+SLP=3*713109
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cc503a7621451214aeac5d89e3006b1b59e4ed595574a5656b8ead9383b9757acd6c3c4b8336fd28d9e643de145814c2
+
+[controlK]
+A/controlK=22|../src/controlK.v|1|1*1046337
+BinW64/controlK=3*680761
+R=../src/controlK.v|1
+SLP=3*681439
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|aad8287f4d68418f27a51800d06ef4e80bafa52c4e5082916fa00306e52ea5ed7e44f29423fb7bc9624c1e3c3378ea49
+
+[controlSignals]
+A/controlSignals=22|../src/controlSignals.v|1|1*1093113
+BinW64/controlSignals=3*714745
+R=../src/controlSignals.v|1
+SLP=3*715620
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5e486b480893d2b72d118848ce53e6ac450d31857528002bcb2c5a369b0e4bb3d96aadbf116770de496e187aac143a95
+
 [counter]
-A/counter=22|../src/counter.v|1|1*699313
-BinW64/counter=3*456893
+A/counter=22|../src/counter.v|1|1*1062333
+BinW64/counter=3*690834
 R=../src/counter.v|1
-SLP=3*457732
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ec8a9ceecd40c97da6d5687ce01e262f26527262ddaa47cb266f3a3c4d9b973a99e3ebeb6d07c6ea1a79e6c6e70f3a6d
+SLP=3*691673
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ec8a9ceecd40c97da6d5687ce01e262f26527262ddaa47cb266f3a3c4d9b973a7463838bbbd69a91e99a711f1716b393
 
 [date]
-A/date=22|../src/date.v|1|1*966752
-BinW64/date=3*630452
+A/date=22|../src/date.v|1|1*1075183
+BinW64/date=3*701989
 R=../src/date.v|1
-SLP=3*631906
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|94321f55734cdd3c170af38a20a88e8910aa769a38e4559c34833a022ed8714a
+SLP=3*703443
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|94321f55734cdd3c170af38a20a88e89e36110e6bf1fe19585a4da65ac2a0663
 
 [day]
-A/day=22|../src/day.v|1|1*961347
-BinW64/day=3*626094
+A/day=22|../src/day.v|1|1*1077466
+BinW64/day=3*704132
 R=../src/day.v|1
-SLP=3*627502
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4474f811ac5e777755754dc5e681181c27707b96f6b383b88871e983b0ef645b
+SLP=3*705540
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4474f811ac5e777755754dc5e681181cee1424a913633a5a08eda364ee6565d8
 
 [demux_1X8]
-A/demux_1X8=22|../src/demux_1X8.v|1|1*685906
-BinW64/demux_1X8=3*448969
+A/demux_1X8=22|../src/demux_1X8.v|1|1*1049838
+BinW64/demux_1X8=3*683102
 R=../src/demux_1X8.v|1
-SLP=3*449452
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1598b19b6224376026fb455cb4b5d84a3875e3a0a9d0f8a6f4079407858f023e2c3444fecbc8243640697ec11262a256
+SLP=3*683585
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1598b19b6224376026fb455cb4b5d84a3875e3a0a9d0f8a6f4079407858f023e6725c3991b3adf1c18e7db6dab2b6182
 
 [full_adder]
-A/full_adder=22|../src/full_adder.v|1|1*688007
-BinW64/full_adder=3*450246
+A/full_adder=22|../src/full_adder.v|1|1*1051939
+BinW64/full_adder=3*684379
 R=../src/full_adder.v|1
-SLP=3*450577
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e2d288c27998b3558f6fb8e1caef59bb7
+SLP=3*684710
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e292bf3fda560b869604fd9e226e927d6
 
 [half_adder]
-A/half_adder=22|../src/half_adder.v|2|1*687077
-BinW64/half_adder=3*449688
+A/half_adder=22|../src/half_adder.v|2|1*1051009
+BinW64/half_adder=3*683821
 R=../src/half_adder.v|2
-SLP=3*450055
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c231413c39a9dbec2ad98c60a782aff98d
+SLP=3*684188
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c2424b1b5f51f928505f11771ec39669e9
 
 [hour]
 A/hour=22|../src/hourgpt.v|1|1*471098
@@ -188,18 +214,18 @@ SLP=3*315621
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|594d462fbef55c99f2bf8e031ed4a91df78e1e27ffab14a6e462a1a365129b35
 
 [hour1]
-A/hour1=22|../src/hour1.v|1|1*953727
-BinW64/hour1=3*619369
+A/hour1=22|../src/hour1.v|1|1*1064749
+BinW64/hour1=3*692334
 R=../src/hour1.v|1
-SLP=3*620734
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|eaba0083d64c85c9ec63e4b85ea6637b572a2a3bb345e9fc8946941c5d93277f
+SLP=3*693699
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|eaba0083d64c85c9ec63e4b85ea6637bedbc141083cb4d906570f6bf22dbb357
 
 [hour2]
-A/hour2=22|../src/hour2.v|1|1*848704
-BinW64/hour2=3*565733
+A/hour2=22|../src/hour2.v|1|1*1070904
+BinW64/hour2=3*698035
 R=../src/hour2.v|1
-SLP=3*566994
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3811c9d1a824a6305b5adda675888b250afbc2b41f33a08324adbf66cb904a8
+SLP=3*699296
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3811c9d1a824a6305b5adda675888b27aa1b5c71b95a219c8a94c4a8438da04
 
 [jk_flipflop]
 A/jk_flipflop=22|../src/jk_flipflop.v|1|1*698178
@@ -208,68 +234,75 @@ R=../src/jk_flipflop.v|1
 SLP=3*456669
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|07db4041c08ab4b76c2cc19a80772531df0f07b3e17d0e50b1e38550e4fb7c14dd8ff60da761a2754a2bc36ece34c3db
 
+[k_counter]
+A/k_counter=22|../src/k_counter.v|1|1*1044834
+BinW64/k_counter=3*678512
+R=../src/k_counter.v|1
+SLP=3*679898
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bc2a01a9e41b37e9d8aee2f14052cdd6e2c2a0e3cfa45d8b8aca422b22670e7144fbd56ea42f76387668a01653f3cf0c
+
 [minute]
-A/minute=22|../src/minute.v|1|1*956284
-BinW64/minute=3*621582
+A/minute=22|../src/minute.v|1|1*1060182
+BinW64/minute=3*688760
 R=../src/minute.v|1
-SLP=3*622964
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|309fd796909d703b02aa96c0f9e39fe107917a509f6480c483df393daec106df
+SLP=3*690142
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|309fd796909d703b02aa96c0f9e39fe1d4621dc9f92298c8ca01315d05452458
 
 [minute2]
-A/minute2=22|../src/minute2.v|1|1*830961
-BinW64/minute2=3*551248
+A/minute2=22|../src/minute2.v|1|1*1068897
+BinW64/minute2=3*696199
 R=../src/minute2.v|1
-SLP=3*552525
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|034fe41a178ee2d4795446a0b2af654f26527262ddaa47cb266f3a3c4d9b973a240ea139f5946b5695cf0fb62a6ed02f
+SLP=3*697476
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|034fe41a178ee2d4795446a0b2af654f26527262ddaa47cb266f3a3c4d9b973a9515cd0399c525c2ef375b175d1d210f
 
 [month]
-A/month=22|../src/month.v|1|1*974903
-BinW64/month=3*637236
+A/month=22|../src/month.v|1|1*1072894
+BinW64/month=3*699848
 R=../src/month.v|1
-SLP=3*638695
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0adb6b163a7ca19eefa04bbf95ce35e39014d9ab2496a8df1073bbb671fdfe6d
+SLP=3*701307
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0adb6b163a7ca19eefa04bbf95ce35e37bf298c853e2aaf65eae3bb1ea1383d5
 
 [mux_8X1]
-A/mux_8X1=22|../src/mux_8X1.v|1|1*685401
-BinW64/mux_8X1=3*448779
+A/mux_8X1=22|../src/mux_8X1.v|1|1*1108125
+BinW64/mux_8X1=3*720566
 R=../src/mux_8X1.v|1
-SLP=3*448896
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|289129c35d835d6ee95ba8c1bd26c1fb26527262ddaa47cb266f3a3c4d9b973a2a964a5e52e952f0dab89cf5165d630d
+SLP=3*721461
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|289129c35d835d6ee95ba8c1bd26c1fb26527262ddaa47cb266f3a3c4d9b973a3f5c24e62ad963fab2ed6c727bb4c9fa
 
 [parallel_adder]
-A/parallel_adder=22|../src/parallel_adder.v|1|1*689379
-BinW64/parallel_adder=3*450746
+A/parallel_adder=22|../src/parallel_adder.v|1|1*1053311
+BinW64/parallel_adder=3*684879
 R=../src/parallel_adder.v|1
-SLP=3*450870
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|924f68251de2b29003b847e6811f8d6a4cd34d98929353c95ff0370f4fc71b0aaa4872f0cad6067d9d579875bdeed850
+SLP=3*685003
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|924f68251de2b29003b847e6811f8d6a4cd34d98929353c95ff0370f4fc71b0ac5753cae9847f698626018d89d239178
 
 [pla_status]
-A/pla_status=22|../src/pla_status.v|1|1*747482
-BinW64/pla_status=3*490866
+A/pla_status=22|../src/pla_status.v|1|1*1031111
+BinW64/pla_status=3*666184
 R=../src/pla_status.v|1
-SLP=3*491409
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|e861a78c73509e6b19ecc5590ebca632bc9081dd4d10ee3bdf7bb66d511f5577d4ade6e784ed79874ff0d980d92a23bf
+SLP=3*666727
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|e861a78c73509e6b19ecc5590ebca632bc9081dd4d10ee3bdf7bb66d511f5577ec27866c2ea95c214ba2ded437bc9204
 
 [pla_timeUpdate]
-A/pla_timeUpdate=22|../src/pla_timeUpdate.v|3|1*680145
-BinW64/pla_timeUpdate=3*444279
+A/pla_timeUpdate=22|../src/pla_timeUpdate.v|3|1*1037767
+BinW64/pla_timeUpdate=3*674218
 R=../src/pla_timeUpdate.v|3
-SLP=3*445344
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cce895b95211a1e0f208f2b3a22fba6e4edc47b5a69d3f096cfdd77532866c6d70934cadbecc3ea7a6bd947bf9ecb718
+SLP=3*675283
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|cce895b95211a1e0f208f2b3a22fba6e4edc47b5a69d3f096cfdd77532866c6d19bd76a8575a9d14362293aeb9d19594
 
 [pla_timerCompare]
-A/pla_timerCompare=22|../src/pla_timerCompare.v|3|1*763780
-BinW64/pla_timerCompare=3*502273
+A/pla_timerCompare=22|../src/pla_timerCompare.v|3|1*1035579
+BinW64/pla_timerCompare=3*670784
 R=../src/pla_timerCompare.v|3
-SLP=3*503530
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ffc29bcbc627490e88c616545c37b2a4d92e70f67401853fc6d4e6e0c713f0b5e35b1d3c77bf7ab8fa9d7dd76c743638
+SLP=3*672041
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ffc29bcbc627490e88c616545c37b2a4d92e70f67401853fc6d4e6e0c713f0b5395c95292adfc5ded88789da32a516b2
 
 [pla_timerSet]
-A/pla_timerSet=22|../src/pla_timerSet.v|26|1*676120
-BinW64/pla_timerSet=3*438435
+A/pla_timerSet=22|../src/pla_timerSet.v|26|1*1033677
+BinW64/pla_timerSet=3*668291
 R=../src/pla_timerSet.v|26
-SLP=3*439473
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|28934e5797b04852a0c94de2f1ecfb3f5545d284a7a776cd7926d0ffa0c80d4ff278d49fa66b3448f5691fa4dedf8560
+SLP=3*669331
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|28934e5797b04852a0c94de2f1ecfb3f5545d284a7a776cd7926d0ffa0c80d4f89643753bdb39cea54fc44dfb824e00d
 
 [second]
 A/second=22|../src/second.v|1|1*247235
@@ -279,63 +312,67 @@ SLP=3*171880
 Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5a60c45940e9c7c9356457af3f1082ba1cd8bf103545e0a7fa8191efb0b7d29b
 
 [second1]
-A/second1=22|../src/second1.v|1|1*958851
-BinW64/second1=3*623839
+A/second1=22|../src/second1.v|1|1*1058102
+BinW64/second1=3*686688
 R=../src/second1.v|1
-SLP=3*625220
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d1dd917204a5a2342815d3caeb78bf0326527262ddaa47cb266f3a3c4d9b973ae457e4b35386ca23412d891108aa3de9
+SLP=3*688069
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d1dd917204a5a2342815d3caeb78bf0326527262ddaa47cb266f3a3c4d9b973a179b9ac288ea6f81317bf4d0d32cc4b5
 
 [second2]
-A/second2=22|../src/second2.v|1|1*833432
-BinW64/second2=3*553267
+A/second2=22|../src/second2.v|1|1*1066890
+BinW64/second2=3*694364
 R=../src/second2.v|1
-SLP=3*554544
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d4bedbb0bde1d210622df06e3ee6077e26527262ddaa47cb266f3a3c4d9b973a5f777cfed0394760fcd9b98398dbb77a
+SLP=3*695641
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d4bedbb0bde1d210622df06e3ee6077e26527262ddaa47cb266f3a3c4d9b973a93f6de087cecb13e977cdc6bb391bb33
 
 [year]
-A/year=22|../src/year.v|1|1*980382
-BinW64/year=3*641967
+A/year=22|../src/year.v|1|1*1079730
+BinW64/year=3*706165
 R=../src/year.v|1
-SLP=3*643455
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|04c2c21d67a98c02a0bf70bef0f8be95e3acf0e2f8c24d75c86052dcab45c516
+SLP=3*707653
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|04c2c21d67a98c02a0bf70bef0f8be95dc0b56642f32897f56d16668debbc5e2
 
 [zero_sign]
-A/zero_sign=22|../src/zero_sign.v|1|1*770940
-BinW64/zero_sign=3*509026
+A/zero_sign=22|../src/zero_sign.v|1|1*1082024
+BinW64/zero_sign=3*708389
 R=../src/zero_sign.v|1
-SLP=3*509511
-Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3f11c280e478fbd2c3aa49adf53a606f1cf4a238d7c8d9bd76caddd6e74c9e7998dbd8c57aff70c7ee2e9f0b3be0edc2
+SLP=3*708874
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3f11c280e478fbd2c3aa49adf53a606f1cf4a238d7c8d9bd76caddd6e74c9e79b0038fc2381f43bad52136152e354e1b
 
 [~U]
-$root=12|0*635817|
-alu=12|0*468788||0x10
-alu_control_signal=12|0*466194|
-breadboard=12|0*636127||0x10
-carry_input_clear=12|0*512588||0x10
+$root=12|0*691296|
+alu=12|0*666469||0x10
+alu_control_signal=12|0*663291||0x10
+breadboard=12|0*689333||0x10
+carry_input_clear=12|0*669792||0x10
 controlA=12|0*37623|
-controlB=12|0*504511|
+controlB=12|0*666268|
 controlC=12|0*37429|
-counter=12|0*469787||0x10
-date=12|0*624359||0x10
-day=12|0*620474|
-demux_1X8=12|0*467661||0x10
-full_adder=12|0*468085|
-half_adder=12|0*467882|
+controlEa=12|0*681254||0x10
+controlK=12|0*664820|
+controlSignals=12|0*684992||0x10
+counter=12|0*667280||0x10
+date=12|0*668807||0x10
+day=12|0*669067||0x10
+demux_1X8=12|0*665342||0x10
+full_adder=12|0*665766|
+half_adder=12|0*665563|
 hour=12|0*340052||0x10
-hour1=12|0*614705|
-hour2=12|0*562976||0x10
+hour1=12|0*667527||0x10
+hour2=12|0*668295||0x10
 jk_flipflop=12|0*469569|
-minute=12|0*616632|
-minute2=12|0*549555||0x10
-month=12|0*630208||0x10
-mux_8X1=12|0*467507||0x10
-parallel_adder=12|0*468315|
-pla_status=12|0*495527|
-pla_timeUpdate=12|0*467018||0x10
-pla_timerCompare=12|0*506187|
-pla_timerSet=12|0*466440|
+k_counter=12|0*664585|
+minute=12|0*667012||0x10
+minute2=12|0*668044||0x10
+month=12|0*668543||0x10
+mux_8X1=12|0*691702||0x10
+parallel_adder=12|0*665996|
+pla_status=12|0*663066||0x10
+pla_timeUpdate=12|0*664121||0x10
+pla_timerCompare=12|0*663814||0x10
+pla_timerSet=12|0*663537||0x10
 second=12|0*172068|
-second1=12|0*618563||0x10
-second2=12|0*551471||0x10
-year=12|0*634154||0x10
-zero_sign=12|0*510897||0x10
+second1=12|0*666750||0x10
+second2=12|0*667793||0x10
+year=12|0*669328||0x10
+zero_sign=12|0*669594||0x10
