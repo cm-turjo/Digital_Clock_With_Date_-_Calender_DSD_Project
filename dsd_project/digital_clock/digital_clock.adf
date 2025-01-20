@@ -102,6 +102,8 @@ extension11=asdb;awc;asdbc;asdbe
 /dayForm.awc=-1
 /allCounterForm.asdb=-1
 /allCounterForm.awc=-1
+/minuteTohourForm.asdb=-1
+/minuteTohourForm.awc=-1
 [Files.Data]
 .\src\pla_status.v=Verilog Source Code
 .\src\alu_control_signal.v=Verilog Source Code
@@ -147,3 +149,5 @@ extension11=asdb;awc;asdbc;asdbe
 .\src\dayForm.awc=Accelerated Waveform Configuration
 .\src\allCounterForm.asdb=Accelerated Waveform File
 .\src\allCounterForm.awc=Accelerated Waveform Configuration
+.\src\minuteTohourForm.asdb=Accelerated Waveform File
+.\src\minuteTohourForm.awc=Accelerated Waveform Configuration

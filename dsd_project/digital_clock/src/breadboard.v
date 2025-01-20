@@ -11,11 +11,10 @@ reg [4:0] hour1, hour2, date;
 reg [3:0] month;
 reg [2:0] day;
 reg load,clear,enable,secCount,minCount,hourCount,dayCount,dateCount,monthCount,yearCount;
-
-
+																				
 wire [5:0] databus;
 
-second1 s1(clk, load, clear, enable, databus, sec1, databus, secCount);
+//second1 s1(clk, load, clear, enable, databus, sec1, databus, secCount);
 //second2 s2(clk, load, clear, enable, databus, sec2, databus);
 minute m1(clk, load, clear, enable, databus, secCount, min1, databus, minCount);	
 //minute2 m2(clk, load, clear, enable, databus, min2, databus);
